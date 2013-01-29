@@ -33,6 +33,8 @@ module.exports =
       #'schedule'
       'partners'
       'sponsors'
+      'contribute'
+      'register'
       #'contact'
     ]
 
@@ -45,6 +47,8 @@ module.exports =
       schedule: "Schedule"
       sponsors: "Team"
       partners: "Partners"
+      contribute: "Contribute"
+      register: "Register"
       contact: "Contact"
 
     # The entire schedule
