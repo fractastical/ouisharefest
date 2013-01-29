@@ -30,8 +30,8 @@ module.exports =
       #'location'
       'speakers'
       #'schedule'
-      'sponsors'
       'partners'
+      'sponsors'
       #'contact'
     ]
 
