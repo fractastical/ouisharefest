@@ -41,7 +41,7 @@ module.exports =
       location: "Location"
       speakers: "Speakers"
       schedule: "Schedule"
-      sponsors: "Sponsors"
+      sponsors: "Team"
       partners: "Partners"
       contact: "Contact"
 
