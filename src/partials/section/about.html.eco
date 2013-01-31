@@ -1,6 +1,9 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<h3 class="section-title">The first major European event dedicated to the collaborative economy</h2>
+<p itemprop="description">This three days festival will bring together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future.<br/>
+<strong>Paris, May 2,3,4, 2013.</strong>
+</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<h3>Not just another business conference</h3>
+<p>Co-designed with its community, Ouishare Fest will feature a wide range of hands-on activities and conclude with great live music.<br/>
+<strong>Day 1-2</strong> will gather 500 professionals (startups, innovators, enterprises, investors, ...) and public officials.<br/>
+<strong>Day 3</strong> will be free and open to the public to raise awareness among a broader audience.</p>
