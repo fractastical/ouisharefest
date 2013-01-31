@@ -5,22 +5,22 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Conference name"
-      description: "Conference description"
-      date: "November 15"
-      price: "$100"
-      venue: "Coco Bongo"
-      address: "Boulevard Kukulcan, 30"
-      city: "Cancún"
-      state: "Quintana"
+      name: "Ouishare Fest"
+      description: " "
+      date: "may 2-3-4 2013"
+      price: " "
+      venue: " "
+      address: " "
+      city: " "
+      state: " "
 
     # Site info
     site:
-      url: "http://confboilerplate.com"
+      url: "http://ouisharefest.net"
       googleanalytics: "UA-33656081-1"
       images:
-        cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
-        facebook: "http://braziljs.org/img/fb-share.jpg"
+        cover: " "
+        facebook: " "
 
     # Active sections on the website
     # to deactivate comment out with '#'
