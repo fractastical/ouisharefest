@@ -6,6 +6,18 @@
         <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
       </li>
     <% end %>
+    <li class="nav-item">
+      <a href="https://www.facebook.com/ouishare" class="facebook nav-link">f</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://www.twitter.com/ouishare" class="twitter nav-link">t</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://www.ouishare.net" class="blog nav-link">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://www.twitter.com/ouishare" class="fr nav-link">FR</a>
+    </li>
   </ul>
 </nav>
 
