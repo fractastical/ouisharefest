@@ -1,9 +1,10 @@
+@font-face: {font-family:blanch; src:url('../fonts/BLANCH_CONDENSED.ttf');}
 /* =============================================================================
    MAIN LAYOUT
    ========================================================================== */
 html {
   background:#F6F6F6;
-  font:normal normal 10px/1.2em helvetica, arial, sans-serif;
+  font:normal normal 10px/1.2em; helvetica, arial, sans-serif;
   color:#777;
 }
 
@@ -11,6 +12,7 @@ html {
    BASIC STYLES
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
+body {font-family: blanch;}
 
 /* =============================================================================
    NAVIGATION
