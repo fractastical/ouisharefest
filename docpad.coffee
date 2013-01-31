@@ -258,7 +258,7 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
       name: "Jean-Baptiste Roger"
-      photo: "img/speakers/Speakers_Roger_Jean-Baptiste.jpg"
+      photo: "img/speakers/Speakers_Roger.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Fonderie"
       twitter: "woz"
@@ -305,9 +305,77 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
-      name: "Eventick"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-      url: "http://eventick.com.br"
+      name: "Flore Berlingen"
+      photo: "img/team/Team_Flore.jpg"
+      twitter: "FloreBerlin"
+      tags: "#Coordination #Community #Partnerships"
+      quote: "This fest will be a collaborative experience. I dare you ;)"
+    ,
+      name: "Benjamin Tincq"
+      photo: "img/team/Team_Ben.jpg"
+      twitter: "Btincq"
+      tags: "#Program #Coordination #Partnerships"
+      quote: "...."
+    ,
+      name: "Antonin Leonard"
+      photo: "img/team/Team_Antonin.jpg"
+      twitter: "AntoLeonard"
+      tags: "#Partnerships #PR #Program"
+      quote: "Let's fucking do it"
+    ,
+      name: "Francesca Pick"
+      photo: "img/team/Team_Francesca.jpg"
+      twitter: "Francesca_sp"
+      tags: "#Communication #PR"
+      quote: "I can't wait to finally bring together all the mover's and shakers in the European collaborative economy!"
+    ,
+      name: "Cristobal Garcia"
+      photo: "img/team/Team_Cristo.jpg"
+      twitter: "CristobGarcia"
+      tags: "#Experience #Play #Program #Community"
+      quote: "Let's play hard the collaborative game. It's gonna be AWESOME."
+    ,
+      name: "Elf Pavlik"
+      photo: "img/team/Team_Elf.jpg"
+      twitter: "elfpavlik"
+      tags: "#Community #Collaboration #Labs"
+      quote: "All together we can make this world work for everyone!"
+    ,
+      name: "Celya Gruson-Daniel"
+      photo: "img/team/Team_Celya.jpg"
+      twitter: "Celyagd"
+      tags: "#OpenScience #Program"
+      quote: "If you have knowledge, let other light their candles at it. (Margaret Fuller)"
+    ,
+      name: "Simone Cicero"
+      photo: "img/team/Team_Simone.jpg"
+      twitter: "meedabyte"
+      tags: "#Program #CoDesign"
+      quote: "I want to make this Fest, the Fest of learning"
+    ,
+      name: "Tomas Mancin"
+      photo: "img/team/Team_Tomas.jpg"
+      twitter: "T_M_Arch"
+      tags: "#CO_talk #Social #Alchemy"
+      quote: "I want to see the sparkles in their eyes!"
+    ,
+      name: "Jean-Baptiste Roger"
+      photo: "img/team/Team_JB_Roger.jpg"
+      twitter: "jbroger"
+      tags: "#Fonderie #IdF"
+      quote: "..."
+    ,
+      name: "Maria Nadejde"
+      photo: "img/team/Team_Maria.jpg"
+      twitter: "..."
+      tags: "#Fonderie"
+      quote: "..."
+    ,
+      name: "Karine Goldberg"
+      photo: "img/team/Team_Karine.jpg"
+      twitter: "KaSaraGold"
+      tags: "#Fonderie #IdF"
+      quote: "..."
     ]
 
     # List of Partners

@@ -2,15 +2,14 @@
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-    </a>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
+  <span class="sponsor-photo">
+    <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+  </span>
+    <h3 class="sponsors-name"><%= sponsor.name %></h3>
+    <p><%= sponsor.twitter %></p>
+    <p><%= sponsor.tags %></p>
+    <p><%= sponsor.quote %></p>
   </li>
 <% end %>
-  <li class="sponsor-item">
-    <a class="sponsor-logo sponsor-link sponsor-call" href="#">
-    	<img src="img/your-logo.jpg" alt="your logo" class="photo">
-    </a>
-  </li>
 </ul>
