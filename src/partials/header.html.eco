@@ -10,7 +10,7 @@
      2013<br/>
     </div>
     <h1 class="logo-name">
-      <strong>oui</strong>share
+      <span class="oui">oui</span><span class="share">share</span>
     </h1>
     </div>
 </header>
