@@ -3,7 +3,7 @@
   <div class="wrapper">
     <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
     <span class="fonderie"><img src='img/fonderiesmall.jpg'></span>
-    <span class="presskit"><a href=# class="presskittext"> presskit</a></span>
+    <div class="presskit"><div class="presskittext"><a href=#> presskit</a></div></div>
     <h2 class="tagline"><%= @conf.date %></h2>
     <h1 class="logo-name">
       <strong>oui</strong>share

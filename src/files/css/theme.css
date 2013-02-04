@@ -109,9 +109,10 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 .oui {font-family:blanchcondensed_light;}
 .share {font-family:blanchcondensed;}
 .fonderie{float:left;padding-top:-20px;margin-top:-20px;}
-.presskit{float:right;
-   color:blue;
-   background:yellow;
+.presskit{
+   float:right;
+   margin-right:100px;
+   background:color:rgba(252,238,33,1);
    margin-top:-20px;
    width: 150px;
    height: 80px;
@@ -120,7 +121,7 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
 }
-.presskit .text{margin-top:10px;}
+.presskittext{margin-top:25px;font-size:2em;color:rgba(0,0,255,1);}
 .tagline {font-weight: normal; float:left;}
 .call-action-area .price {color:#fddd52;}
 
