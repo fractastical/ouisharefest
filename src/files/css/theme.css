@@ -113,7 +113,7 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    float:right;
    margin-right:100px;
    background:color:rgba(252,238,33,1);
-   margin-top:-20px;
+   margin-top:-60px;
    width: 150px;
    height: 80px;
    background: rgba(252,238,33,1);
@@ -122,8 +122,14 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    border-radius: 100px / 50px;
 }
 .presskittext{margin-top:25px;font-size:2em;color:rgba(0,0,255,1);}
-.tagline {font-weight: normal; float:left;}
-.call-action-area .price {color:#fddd52;}
+.date{
+    display:block;
+    float:left;
+    margin-left:100px;
+    font-family:blanchcaps;
+    font-size: 6em;
+    color: rgba(230,230,255,1);
+}
 
 /* =============================================================================
    CONTENT

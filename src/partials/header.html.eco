@@ -1,10 +1,14 @@
 <!-- HEADER -->
 <header class="header">
   <div class="wrapper">
-    <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
-    <span class="fonderie"><img src='img/fonderiesmall.jpg'></span>
+    <div><p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
+    <span class="fonderie"><img src='img/fonderiesmall.jpg'></span></div>
     <div class="presskit"><div class="presskittext"><a href=#> presskit</a></div></div>
-    <h2 class="tagline"><%= @conf.date %></h2>
+    <div class="date">
+     may<br/>
+     2-3-4<br/>
+     2013<br/>
+    </div>
     <h1 class="logo-name">
       <strong>oui</strong>share
     </h1>
