@@ -380,7 +380,15 @@ module.exports =
 
     # List of Partners
     partners: [
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-      url: "http://braziljs.org"
+      name: "La Fonderie"
+      logo: "img/fonderie.jpg"
+      url: "http://lafonderie.org"
+    ,
+      name: "Shareable"
+      logo: "img/shareable.jpg"
+      url: "http://lafonderie.org"
+    ,
+      name: "Fing"
+      logo: "img/fing.jpg"
+      url: "http://fing.org"
     ]

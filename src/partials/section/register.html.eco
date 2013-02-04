@@ -1,6 +1,21 @@
-<h2 class="section-title"><%= @labels['register'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
-
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p><strong>Days 1 and 2</strong></p>
+<p>are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices.</p>
+<div class="prices">
+<p>STUDENT TICKET</p>
+<p>40€</p>
+<p>(limited to 25)</p>
+<p>HACKER TICKET</p>
+<p>120€ (early bird)</p>
+<p>190€ (late bird)</p>
+<p>* reserved for freelancers, boostraped projects and startups with under 1M€ in funding</p>
+<p>REGULAR TICKET</p>
+<p>250€ (early bird)</p>
+<p>490€ (late bird)</p>
+</div>
+<div class="call">
+<p>Book<br/>
+Your ticket<br/>
+Now<br/>
+</div>
+<p><strong>Day 3</strong></p>
+<p>Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.</p>

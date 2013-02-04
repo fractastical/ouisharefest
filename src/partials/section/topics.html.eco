@@ -1,6 +1,47 @@
-<h2 class="section-title"><%= @labels['topics'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<div class="tab-switcher topic1">
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+    <section class="tab">
+        <input type="radio" id="tab-one" name="tab-set" checked>
+        <label for="tab-one" onclick=" ">Tab #1</label>
+        <div class="tab-content">
+        <h3>The Collaborative Economy in Europe is gaining momentum.</h3>
+        <p>Countless collaborative, peer-to-peer, and open alternatives are reinventing the way we produce and use goods, resources and services, harnessing the power of communities.</p>
+        </div><!-- tab-content -->
+    </section><!-- .tab (1) -->
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+    <section class="tab">
+        <input type="radio" id="tab-two" name="tab-set">
+        <label for="tab-two" onclick=" ">Tab #2</label>
+        <div class="tab-content">
+        <h3>Collaborative Consumption</h3>
+        <p>leverages the power of the internet and peer-to-peer networks to reinvent how we share, rent, swap or trade goods and services.</p>
+        </div><!-- tab-content -->
+   </section><!-- .tab (2) -->
+
+   <section class="tab">
+       <input type="radio" id="tab-three" name="tab-set">
+       <label for="tab-three" onclick=" ">Tab #3</label>
+       <div class="tab-content">
+       <h3>Makers and Peer Production</h3>
+       <p>are ushering in a new industrial revolution. Manufacturing is being democratized by digital fabrication tools (3D printers), local production facilities (FabLabs) and the sharing of open souce hardware designs.</p>
+       </div><!-- tab-content -->
+   </section><!-- .tab (3) -->
+
+   <section class="tab">
+       <input type="radio" id="tab-four" name="tab-set">
+       <label for="tab-four" onclick=" ">Tab #4</label>
+       <div class="tab-content">
+       <h3>Peer-to-Peer Finance</h3>
+       <p>distributes capital through crowdfunding and peer-to-peer lending, while alternative currencies and gift economies create new forms of value exchange.</p>
+       </div><!-- tab-content -->
+   </section><!-- .tab (4) -->
+
+   <section class="tab">
+       <input type="radio" id="tab-five" name="tab-set">
+       <label for="tab-five" onclick="">Tab #5</label>
+       <div class="tab-content">
+       <h3>Open Knowledge</h3>
+       <p>creates the basis for building sustainable societies by opening and democratizing governments, science, education, culture and the economy.</p>
+       </div><!-- tab-content -->
+   </section><!-- .tab (5) -->
+</div><!-- .tab-switcher -->

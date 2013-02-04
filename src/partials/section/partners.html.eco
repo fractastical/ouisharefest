@@ -8,9 +8,6 @@
     </a>
   </li>
 <% end %>
-  <li class="partner-item">
-    <a class="partner-logo partner-link partner-call" href="#">
-    	<img src="img/your-logo.jpg" alt="your logo" class="photo">
-    </a>
-  </li>
 </ul>
+<p>If you would like to become a partner,<br/>
+please contact us at <span class="contact">partners@ouishare.net</span>

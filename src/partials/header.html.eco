@@ -1,15 +1,14 @@
 <!-- HEADER -->
-<header class="header" style="background-image: url(<%= @site.images.cover %>)">
+<header class="header">
   <div class="wrapper">
+    <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
+    <span class="fonderie"><img src='img/fonderiesmall.jpg'></span>
+    <span class="presskit"><a href=# class="presskittext"> presskit</a></span>
+    <h2 class="tagline"><%= @conf.date %></h2>
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <strong>oui</strong>share
     </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
-    <div class="call-action-area">
-      <span class="price">Only <%= @conf.price %></span>
-      <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a>
     </div>
-  </div>
 </header>
 <!--  / HEADER -->
 
