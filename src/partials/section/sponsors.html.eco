@@ -18,12 +18,15 @@
       </li>
     <% end %>
     </ul>
-    <p><strong>Credits</strong></p>
-    <p><strong>Design</strong>
-    Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
-    g-u-i.net</p>
+    <div class="credits">
+      <h2>Credits</h2>
+      <h3>Design</h3>
+      <p>Nicolas Couturier, Angeline Ostinelli<br/>
+      & Benoit Verjat.<br/>
+      g-u-i.net</p>
 
-    <p><strong>Development</strong>
-    Alban Leveau-Vallier
-    <a href="http://nukomeet.com">Nukomeet</a></p>
+      <h3>Development</h3>
+      <p>Alban Leveau-Vallier<br/>
+      <a href="http://nukomeet.com">Nukomeet</a></p>
+    </div>
 </div>

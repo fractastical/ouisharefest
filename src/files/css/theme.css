@@ -71,7 +71,6 @@ html {
   color: rgba(26,23,27,1);
   height:100%;
 }
-
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -147,11 +146,7 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /* =============================================================================
    CONTENT
    ========================================================================== */
-.content a {color:#f0a303;}
-.content a:hover, .content a:focus {
-  color:#fddd52;
-  text-decoration: underline;
-}
+.content a{color:rgba(26,23,27,1);}
 /* =============================================================================
    ABOUT
    ========================================================================== */
@@ -288,7 +283,7 @@ section.tab.fifth label{
   margin-top:200px;
   width: 600px;
   height:300px;
-  background: rgba(0,0,255,0.6);
+  background: rgba(166,166,255,0.6);
   padding: 20px;
   -webkit-transition: all .4s linear;
   -moz-transition: all .4s linear;
@@ -417,7 +412,7 @@ section.tab.fifth label{
 .sponsors{
   display:block;
   padding-top:100px;
-  height: 200% !important;
+  height: 220% !important;
   background-color: #e6e6ff;
 }
 .wrap{
@@ -436,7 +431,6 @@ section.tab.fifth label{
 .teamtextright{
   font-size:0.8em;
   font-weight:bold;
-  height:100px;
   height:100px;
   width:360px;
   float:right;
@@ -470,6 +464,11 @@ section.tab.fifth label{
 .sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
 .sponsor-tags{font-size:1.2em;color:#0000ff;}
 .sponsors p {font-size:1em;}
+.credits{margin-left:200px;}
+.credits p{font-size:0.8em;color:#0000ff;}
+.credits h2{font-size:1.5em;color:#a6a6ff;}
+.credits h3{font-size:0.8em;color:#a6a6ff;}
+
 /* =============================================================================
    CONTRIBUTE
    ========================================================================== */
