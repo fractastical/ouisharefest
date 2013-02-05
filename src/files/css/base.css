@@ -8,7 +8,7 @@
   position:relative;
 }
 .content {padding: 50px 0; height: 100%;}
-.content section {padding-top: 50px; height:100%;}
+.content section {padding-top: 100px; height:100%;}
 
 /* =============================================================================
    BASIC STYLES
@@ -64,28 +64,6 @@ nav {
   font-size: 2em;
   letter-spacing: -.02em;
 }
-.call-action-area .price {
-  font-size:4em;
-  vertical-align: center;
-  margin-right:20px;
-}
-.call-action-area .call-action-link, .btn {
-  position:relative;
-  top:-5px;
-  cursor: pointer;
-  display: inline-block;
-  padding: 15px 30px;
-  font-size:2em;
-  line-height:1em;
-  vertical-align: center;
-  letter-spacing: -.02em;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-.call-action-area .call-action-link:hover, .call-action-area .call-action-link:focus, .btn:hover, .btn:focus {top:0;}
 
 /* =============================================================================
    ABOUT

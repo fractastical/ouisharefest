@@ -157,7 +157,6 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 .aboutframe h3{
     font-size:2em;
     line-height:1.8em;
-    font-weight:i
 }
 .aboutleft{
     display:block;
@@ -400,6 +399,59 @@ section.tab.fifth label{
    CONTRIBUTE
    ========================================================================== */
 .call{color:white;background-color:blue;padding:10px 10px 10px 10px;border-radius:50px;text-transform:uppercase;}
+/* =============================================================================
+   REGISTER
+   ========================================================================== */
+.register{background-color:rgba(252,238,33,1);padding-top:95px;}
+.register h3 {
+    font-size:2em;
+    line-height:1.8em;
+}
+.register p {
+    font-size: 1.2em;
+}
+.registerleft{
+    display:block;
+    float:left;
+    width:400px;
+    margin-left:250px;
+}
+.registerright{
+    display:inline-block;
+    width:200px;
+    float:right;
+    color: #666;
+    margin-right:500px;
+    margin-top:50px;
+}
+.registerright p{
+    line-height: 1.2em;
+    font-size: 1em;
+}
+.registerbutton{
+    margin-left:1100px;
+    margin-top:340px;
+    background-color: rgba(0,0,255,1);
+    width: 200px;
+    height: 140px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+.registerbutton p{
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.registerdown{
+    display:block;
+    float:left;
+    margin-left:250px;
+    margin-top: -50px;
+    width: 800px;
+}
+
 /* =============================================================================
    CONTACT
    ========================================================================== */
