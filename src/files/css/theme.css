@@ -184,21 +184,20 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /* =============================================================================
    TOPICS
    ========================================================================== */
-.topics {padding-top: -100px;}
-.topic1, .topic2, .topic3, .topic4, .topic5{color:white;height:100%;}
+.topics {padding-top: -100px;color:white;}
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-.topic1{
+section.tab.first{
     background: url('../img/backgrounds/topic1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
 }
-.topic2{
+section.tab.second{
     background: url('../img/backgrounds/topic2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -227,6 +226,7 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;;
 }
 .tab-switcher {
+  height:100%;
   position: relative;
 }
 .tab-switcher label {
@@ -288,6 +288,8 @@ section.tab.fifth label{
 .tab-switcher input[type=radio]:checked ~ .tab-content {
   z-index: 1;
   background:rgba(166,166,255,0.9);
+}
+.tab-switcher input[type=radio]:checked ~ .section.tab {
 }
 
 .tab-switcher input[type=radio]:checked ~ label {

@@ -1,4 +1,4 @@
-<div class="tab-switcher topic1">
+<div class="tab-switcher">
 
     <section class="tab first">
         <input type="radio" id="tab-one" name="tab-set" checked>
