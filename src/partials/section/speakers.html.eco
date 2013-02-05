@@ -1,5 +1,3 @@
-<h2 class="section-title"><%= @labels['speakers'] %></h2>
-
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
   <% if speaker.presentation: %>
