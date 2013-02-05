@@ -374,7 +374,36 @@ section.tab.fifth label{
 /* =============================================================================
    PARTNERS
    ========================================================================== */
-.partners{padding-top:100px;}
+.partners{padding-top:100px;background:#999;}
+.partnersframe{
+    background:white;
+    display:block;
+    margin: auto;
+    margin-top:80px;
+    width: 800px;
+    height: 400px;
+}
+.fonderie2{
+    display:block;
+    width:400px;
+    height:171px;
+    margin: auto;
+}
+.logo{
+    margin-right:42.5px;
+    margin-left:42.5px;
+    display:inline-block;
+    width:150px;
+    height:104px;
+}
+.shareable{
+    margin-left:90px;
+}
+.meshlabs{
+    margin-left:90px;
+}
+
+.partnerstext{margin-left:380px;margin-top:10px;font-size:1em;}
 .contact{padding:10px 10px 10px 10px; border-radius:50px; background-color:yellow;}
 
 /* =============================================================================

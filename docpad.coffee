@@ -379,16 +379,3 @@ module.exports =
     ]
 
     # List of Partners
-    partners: [
-      name: "La Fonderie"
-      logo: "img/fonderie.jpg"
-      url: "http://lafonderie.org"
-    ,
-      name: "Shareable"
-      logo: "img/shareable.jpg"
-      url: "http://lafonderie.org"
-    ,
-      name: "Fing"
-      logo: "img/fing.jpg"
-      url: "http://fing.org"
-    ]

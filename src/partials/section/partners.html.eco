@@ -1,12 +1,25 @@
-<ul class="partners-list">
-
-<% for partner in @partners: %>
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= partner.url %>" class="partner-logo partner-link" itemprop="url">
-      <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
-<% end %>
-</ul>
-<p>If you would like to become a partner,<br/>
-please contact us at <span class="contact">partners@ouishare.net</span>
+<div class="partnersframe">
+  <div class="fonderie2">
+     <img src="img/fonderie.jpg"/>
+  </div>
+  <div class="shareable logo">
+     <img src="img/shareable.jpg"/>
+  </div>
+  <div class="cc logo">
+    <img src="img/fing.jpg"/>
+  </div>
+  <div class="p2p logo">
+    <img src="img/shareable.jpg"/>
+  </div>
+  <div class="meshlabs logo">
+    <img src="img/fing.jpg"/>
+  </div>
+  <div class="deskmag logo">
+    <img src="img/deskmag.jpg"/>
+  </div>
+  <div class="fing logo">
+    <img src="img/fing.jpg">
+  </div>
+</div>
+<div class="partnerstext"><p>If you would like to become a partner,<br/>
+please contact us at <span class="contact">partners@ouishare.net</span></div>
