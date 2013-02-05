@@ -2,7 +2,7 @@
 
     <section class="tab first">
         <input type="radio" id="tab-one" name="tab-set" checked>
-        <label for="tab-one" onclick=" ">Tab #1</label>
+        <label for="tab-one" onclick=" "></label>
         <div class="tab-content">
         <h3>The Collaborative Economy in Europe is gaining momentum.</h3>
         <p>Countless collaborative, peer-to-peer, and open alternatives are reinventing the way we produce and use goods, resources and services, harnessing the power of communities.</p>
@@ -11,7 +11,7 @@
 
     <section class="tab second">
         <input type="radio" id="tab-two" name="tab-set">
-        <label for="tab-two" onclick=" ">Tab #2</label>
+        <label for="tab-two" onclick=" "></label>
         <div class="tab-content">
         <h3>Collaborative Consumption</h3>
         <p>leverages the power of the internet and peer-to-peer networks to reinvent how we share, rent, swap or trade goods and services.</p>
@@ -20,7 +20,7 @@
 
    <section class="tab third">
        <input type="radio" id="tab-three" name="tab-set">
-       <label for="tab-three" onclick=" ">Tab #3</label>
+       <label for="tab-three" onclick=" "></label>
        <div class="tab-content">
        <h3>Makers and Peer Production</h3>
        <p>are ushering in a new industrial revolution. Manufacturing is being democratized by digital fabrication tools (3D printers), local production facilities (FabLabs) and the sharing of open souce hardware designs.</p>
@@ -29,7 +29,7 @@
 
    <section class="tab fourth">
        <input type="radio" id="tab-four" name="tab-set">
-       <label for="tab-four" onclick=" ">Tab #4</label>
+       <label for="tab-four" onclick=" "></label>
        <div class="tab-content">
        <h3>Peer-to-Peer Finance</h3>
        <p>distributes capital through crowdfunding and peer-to-peer lending, while alternative currencies and gift economies create new forms of value exchange.</p>
@@ -38,7 +38,7 @@
 
    <section class="tab fifth">
        <input type="radio" id="tab-five" name="tab-set">
-       <label for="tab-five" onclick="">Tab #5</label>
+       <label for="tab-five" onclick=""></label>
        <div class="tab-content">
        <h3>Open Knowledge</h3>
        <p>creates the basis for building sustainable societies by opening and democratizing governments, science, education, culture and the economy.</p>

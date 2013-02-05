@@ -144,7 +144,6 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     line-height:1em;
     color: #b3b3ff;
 }
-
 /* =============================================================================
    CONTENT
    ========================================================================== */
@@ -153,19 +152,16 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
   color:#fddd52;
   text-decoration: underline;
 }
-
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about{background:rgba(0,0,255,1);}
 .aboutframe {
+    margin:auto;
     font-size: 0.8em;
-    position:relative;
     height:500px;
     width:900px;
     margin-top: 80px;
-    margin-right:auto;
-    margin-left:auto;
     background:rgba(255,255,255, 0.7);
 }
 .aboutframe h3{
@@ -190,10 +186,12 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    ========================================================================== */
 .topics {padding-top: -100px;}
 .topic1, .topic2, .topic3, .topic4, .topic5{color:white;height:100%;}
-.topics h3{color:white;font-weight:bold;line-height:1.3em;}
+.topics h3{
+  color:white;
+  font-weight:bold;
+  line-height:1.3em;
+}
 .topic1{
-    height:100%;
-    display: block;
     background: url('../img/backgrounds/topic1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,8 +199,6 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;;
 }
 .topic2{
-    height:100%;
-    display: block;
     background: url('../img/backgrounds/topic2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -210,8 +206,6 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;;
 }
 .topic3{
-    height:100%;
-    display: block;
     background: url('../img/backgrounds/topic3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -219,8 +213,6 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;;
 }
 .topic4{
-    height:100%;
-    display: block;
     background: url('../img/backgrounds/topic4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -228,72 +220,47 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;;
 }
 .topic5{
-    height:100%;
-    display: block;
     background: url('../img/backgrounds/topic5.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
 }
-
 .tab-switcher {
   position: relative;
-  height:100%;
 }
-
-.tab {
-  float: left;
-}
-
 .tab-switcher label {
-  position:absolute;
-  right:500px;
-  top:50%;
-  padding: 14px;
-  margin:14px;
-  border-radius: 8px 8px 0 0;
-  border: solid 1px #ccc;
-  background: white;
-  display: block;
-  margin-left: -1px;
-  z-index:2;
-  -webkit-transition: all .4s linear;
-  -moz-transition: all .4s linear;
-  -o-transition: all .4s linear;
-  -ms-transition: all .4s linear;
-  transition: all .4s linear;
+}
+section.tab label{
+    z-index: 2;
+    padding: 8px;
+    position:absolute;
+    top:65%;
+    background: rgba(0,0,255,1);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    transition: all .4s linear;
 }
 
 section.tab.first label{
-    position:absolute;
-    right: 850px;
-    top:60%;
-    z-index:4;
+    right: 820px;
 }
 section.tab.second label{
-    position:absolute;
-    right: 840px;
-    top:60%;
-    z-index:4;
+    right: 795px;
 }
 section.tab.third label{
-    position:absolute;
-    right: 830px;
-    top:60%;
-    z-index:4;
+    right: 770px;
 }
 section.tab.fourth label{
-    position:absolute;
-    right: 820px;
-    top:60%;
-    z-index:4;
+    right: 745px;
 }
 section.tab.fifth label{
-    position:absolute;
-    right: 810px;
-    top:60%;
-    z-index:4;
+    right: 720px;
 }
 .tab-switcher label:hover {
   cursor: pointer;
@@ -301,17 +268,12 @@ section.tab.fifth label{
 
 .tab-content {
   position:absolute;
-  right:35em;
-  top:7em;
+  left:400px;
+  top:200px;
   font-weight:bolder;
-  display:block;
   padding: 20px;
-  width: 600px;
+  width: 700px;
   height:300px;
-  border: solid 1px #ccc;
-  border-top: none;
-  background: rgba(0,0,255,0.4);
-  margin-left: -1px;
   -webkit-transition: all .4s linear;
   -moz-transition: all .4s linear;
   -o-transition: all .4s linear;
@@ -324,15 +286,13 @@ section.tab.fifth label{
 }
 
 .tab-switcher input[type=radio]:checked ~ .tab-content {
-  z-index: 10;
-  opacity: 1;
-  background: #888;
-  color: white;
+  z-index: 1;
+  background:rgba(166,166,255,0.9);
 }
 
 .tab-switcher input[type=radio]:checked ~ label {
-  background: #888;
-  color: white;
+  z-index: 2;
+  background: rgba(252,238,33,1);
 }
 
 /* =============================================================================
