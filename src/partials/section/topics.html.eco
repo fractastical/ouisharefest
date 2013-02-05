@@ -1,6 +1,6 @@
 <div class="tab-switcher topic1">
 
-    <section class="tab">
+    <section class="tab first">
         <input type="radio" id="tab-one" name="tab-set" checked>
         <label for="tab-one" onclick=" ">Tab #1</label>
         <div class="tab-content">
@@ -9,7 +9,7 @@
         </div><!-- tab-content -->
     </section><!-- .tab (1) -->
 
-    <section class="tab">
+    <section class="tab second">
         <input type="radio" id="tab-two" name="tab-set">
         <label for="tab-two" onclick=" ">Tab #2</label>
         <div class="tab-content">
@@ -18,7 +18,7 @@
         </div><!-- tab-content -->
    </section><!-- .tab (2) -->
 
-   <section class="tab">
+   <section class="tab third">
        <input type="radio" id="tab-three" name="tab-set">
        <label for="tab-three" onclick=" ">Tab #3</label>
        <div class="tab-content">
@@ -27,7 +27,7 @@
        </div><!-- tab-content -->
    </section><!-- .tab (3) -->
 
-   <section class="tab">
+   <section class="tab fourth">
        <input type="radio" id="tab-four" name="tab-set">
        <label for="tab-four" onclick=" ">Tab #4</label>
        <div class="tab-content">
@@ -36,7 +36,7 @@
        </div><!-- tab-content -->
    </section><!-- .tab (4) -->
 
-   <section class="tab">
+   <section class="tab fifth">
        <input type="radio" id="tab-five" name="tab-set">
        <label for="tab-five" onclick="">Tab #5</label>
        <div class="tab-content">
