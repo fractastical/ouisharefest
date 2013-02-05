@@ -322,15 +322,32 @@ section.tab.fifth label{
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speakers{display:block;padding-top:100px;}
+.speakers{
+  display:block;
+  padding-top:100px;
+  margin-right:200px;
+  margin-left:150px;
+  height: 200% !important;
+}
 .speaker-photo .photo {
   border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+.speakers-item{
+    display:inline-block;
+    height:150px;
+    width:150px;
+    margin:25px;
+}
+.speakers-name{
+    margin-top:10px;
+}
+.speakers-company{
+    font-size:1em;
 }
 .speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
 .speech-time {
@@ -338,7 +355,7 @@ section.tab.fifth label{
   background:#2b2b2b;
   border-radius: 8px;
 }
-.more{float: right; margin-right: 150px;}
+.speakerstext{float: right; margin-right:600px;margin-top:-100px;font-size:1.6em;font-weight:bold;}
 
 /* =============================================================================
    SCHEDULE
@@ -397,7 +414,12 @@ section.tab.fifth label{
 /* =============================================================================
    SPONSORS/TEAM
    ========================================================================== */
-.sponsors{padding-top:100px;}
+.sponsors{
+  padding-top:100px;
+  height: 150%;
+  margin-left:200px;
+  margin-right:200px;
+  }
 .sponsor-link, .partner-link {
   background:#fff;
   border:1px solid #ccc;
@@ -417,7 +439,8 @@ section.tab.fifth label{
 
 .sponsor-item {
   float:left;
-  min-height:180px;
+  height:180px;
+  width: 300px;
   padding-left: 18px;
   margin-bottom:3px;
 }

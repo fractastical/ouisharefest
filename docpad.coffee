@@ -59,7 +59,7 @@ module.exports =
       name: "Lauren Anderson"
       photo: "img/speakers/Speakers_Anderson_Lauren.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "CollaborativeConsumption.com"
+      company: "CollaborativeConsumption"
       twitter: "linus"
       presentation:
         title: "Digging into a Linux Kernel"

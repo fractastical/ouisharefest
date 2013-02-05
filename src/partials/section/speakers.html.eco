@@ -16,9 +16,10 @@
       </h3>-->
 
       <h3 class="speakers-name"><%= speaker.name %></h3>
-      <p><%= speaker.company %></p>
+      <span class="speakers-company"><p><%= speaker.company %></p></span>
 <!--      <p class="speakers-bio"><%= speaker.bio %></p>-->
     </li>
   <% end %>
 <% end %>
 </ul>
+<div class="speakerstext">...and many more coming</div>
