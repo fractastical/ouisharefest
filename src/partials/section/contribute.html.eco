@@ -1,10 +1,26 @@
+<div class="contributetext">
 <h3>Not just another business conference</h3>
 <p>From its conceptualization to d-day, OuiShare Fest will be co-designed by the OuiShare community and its partners to make this event a truly collaborative experience.</p>
-<p><span class="post call">Post an idea<br/>
-on our idea wall</span></p>
-<p><span class="host call">Host<br/>
-a satellite event</span></p>
-<p><span class="volunteer call">Volunteer<br/>
-For the d-day</span></p>
-<p><span class="become call">Become<br/>
-a sponsor</span></p>
+</div>
+<div class="call post">
+    <p>Post an idea<br/>
+    on our idea wall</p>
+</div>
+<div class="host call">
+  <p>
+    Host<br/>
+    a satellite event
+  </p>
+</div>
+<div class="volunteer call">
+  <p>
+    Volunteer<br/>
+    For the d-day
+  </p>
+</div>
+<div class="become call">
+  <p>
+    Become<br/>
+    a sponsor
+  </p>
+</div>

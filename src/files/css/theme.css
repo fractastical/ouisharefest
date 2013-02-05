@@ -174,37 +174,53 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /* =============================================================================
    TOPICS
    ========================================================================== */
+.topics {padding-top: -100px;}
 .topic1, .topic2, .topic3, .topic4, .topic5{color:white;height:100%;}
 .topics h3{color:white;font-weight:bold;line-height:1.3em;}
 .topic1{
     height:100%;
     display: block;
-    background-image: url('../img/backgrounds/topic1.jpg');
-    background-repeat: none;
+    background: url('../img/backgrounds/topic1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 .topic2{
     height:100%;
     display: block;
-    background-image: url('../img/backgrounds/topic2.jpg');
-    background-repeat: none;
+    background: url('../img/backgrounds/topic2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 .topic3{
     height:100%;
     display: block;
-    background-image: url('../img/backgrounds/topic3.jpg');
-    background-repeat: none;
+    background: url('../img/backgrounds/topic3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 .topic4{
     height:100%;
     display: block;
-    background-image: url('../img/backgrounds/topic4.jpg');
-    background-repeat: none;
+    background: url('../img/backgrounds/topic4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 .topic5{
     height:100%;
     display: block;
-    background-image: url('../img/backgrounds/topic5.jpg');
-    background-repeat: none;
+    background: url('../img/backgrounds/topic5.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 
 .tab-switcher {
@@ -398,7 +414,51 @@ section.tab.fifth label{
 /* =============================================================================
    CONTRIBUTE
    ========================================================================== */
-.call{color:white;background-color:blue;padding:10px 10px 10px 10px;border-radius:50px;text-transform:uppercase;}
+.contribute{
+    background: url('../img/backgrounds/topic6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.contributetext{
+    display:block;
+    width: 800px;
+    margin: auto;
+    margin-top:100px;
+}
+.call{
+    background-color: rgba(0,0,255,1);
+    width: 240px;
+    height: 140px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+.call p{
+    font-weight: bold;
+    text-transform:uppercase;
+    color:white;
+    font-size:1.2em;
+    padding:20px;
+    padding-top:30px;
+    margin-top:10px;
+}
+.post {
+    margin-left:460px;
+}
+.host{
+    margin-left:720px;
+    margin-top:-80px;
+}
+.volunteer{
+    margin-top: -100px;
+    margin-left: 250px;
+}
+.become {
+    margin-top: -80px;
+    margin-left: 900px;
+}
 /* =============================================================================
    REGISTER
    ========================================================================== */
