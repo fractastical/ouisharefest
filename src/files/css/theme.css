@@ -415,43 +415,60 @@ section.tab.fifth label{
    SPONSORS/TEAM
    ========================================================================== */
 .sponsors{
+  display:block;
   padding-top:100px;
-  height: 150%;
-  margin-left:200px;
-  margin-right:200px;
-  }
-.sponsor-link, .partner-link {
-  background:#fff;
-  border:1px solid #ccc;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+  height: 200% !important;
+  background-color: #e6e6ff;
 }
-.sponsor-link:hover, .sponsor-link:focus, .partner-link:hover, .partner-link:focus {border-color: #f0a303;}
-
+.wrap{
+  margin-left:180px;
+  margin-right:180px;
+ }
+.teamtextleft{
+  font-size:0.8em;
+  font-weight:bold;
+  float:left;
+  height:100px;
+  width:360px;
+  margin-left:180px;
+  margin-bottom:50px;
+}
+.teamtextright{
+  font-size:0.8em;
+  font-weight:bold;
+  height:100px;
+  height:100px;
+  width:360px;
+  float:right;
+  margin-right:180px;
+  margin-bottom:50px;
+  margin-left:20px;
+}
 .sponsor-photo .photo {
   border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
-
 .sponsor-item {
+  display:block;
   float:left;
-  height:180px;
-  width: 300px;
-  padding-left: 18px;
-  margin-bottom:3px;
+  margin-bottom:20px;
+  height:200px;
+  width: 580px;
 }
 .sponsor-photo {
-  display: block;
-  width: 120px;
-  height: 120px;
+  display: inline-block;
+  float:left;
+  margin-right:30px;
+  width: 160px;
+  height: 160px;
 }
-.sponsor-name{font-size:1em;}
-.sponsor-item p {font-size:1em;}
-.sponsor-quote{display:none;}
+.sponsor-details{
+    margin-left:40px;
+ }
+.sponsor-name{font-size:1.6em;}
+.sponsor-item p {line-height:1em; font-size:1em;}
+.sponsor-twitter{color:#a6a6ff;}
+.sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
+.sponsor-tags{font-size:1.2em;color:#0000ff;}
 .sponsors p {font-size:1em;}
 /* =============================================================================
    CONTRIBUTE

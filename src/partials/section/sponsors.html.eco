@@ -1,25 +1,29 @@
-<p><strong>Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.</strong></p>
-<p>We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.</br>
-Find out more about us on <a href="http://ouishare.net">OuiShare.net</a>.
-<ul class="sponsors-list">
+<div class="wrap">
+    <div class="teamtextleft"><p>Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.</p></div>
+    <div class="teamtextright">
+    <p>We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.</br>
+    Find out more about us on <a href="http://ouishare.net">OuiShare.net</a>.</div>
+    <ul class="sponsors-list">
+    <% for sponsor in @sponsors: %>
+      <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
+      <div class="sponsor-photo">
+        <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+      </div>
+      <div class="sponsor-details">
+        <h3 class="sponsor-name"><%= sponsor.name %></h3>
+        <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@<%= sponsor.twitter %></p></span>
+        <span class="sponsor-tags"><p><%= sponsor.tags %></p></span>
+        <span class="sponsor-quote"><p><%= sponsor.quote %></p></span>
+      </div>
+      </li>
+    <% end %>
+    </ul>
+    <p><strong>Credits</strong></p>
+    <p><strong>Design</strong>
+    Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
+    g-u-i.net</p>
 
-<% for sponsor in @sponsors: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
-  <span class="sponsor-photo">
-    <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-  </span>
-    <h3 class="sponsor-name"><%= sponsor.name %></h3>
-    <p><%= sponsor.twitter %></p>
-    <p><%= sponsor.tags %></p>
-    <span class="sponsor-quote"><p><%= sponsor.quote %></p></span>
-  </li>
-<% end %>
-</ul>
-<p><strong>Credits</strong></p>
-<p><strong>Design</strong>
-Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
-g-u-i.net</p>
-
-<p><strong>Development</strong>
-Alban Leveau-Vallier
-<a href="http://nukomeet.com">Nukomeet</a></p>
+    <p><strong>Development</strong>
+    Alban Leveau-Vallier
+    <a href="http://nukomeet.com">Nukomeet</a></p>
+</div>

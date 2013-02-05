@@ -315,7 +315,7 @@ module.exports =
       photo: "img/team/Team_Ben.jpg"
       twitter: "Btincq"
       tags: "#Program #Coordination #Partnerships"
-      quote: "...."
+      quote: ""....""
     ,
       name: "Antonin Leonard"
       photo: "img/team/Team_Antonin.jpg"
