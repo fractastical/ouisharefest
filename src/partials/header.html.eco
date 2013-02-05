@@ -3,16 +3,15 @@
   <div class="wrapper">
     <div><p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
     <span class="fonderie"><img src='img/fonderiesmall.jpg'></span></div>
-    <div class="presskit"><div class="presskittext"><a href=#> presskit</a></div></div>
+    <div class="presskit"><div class="presskittext"><a href=#>presskit</a></div></div>
+    <div class="wave"><img src='img/wave.png'/>
     <div class="date">
-     may<br/>
-     2-3-4<br/>
-     2013<br/>
+      <p>may
+        2-3-4
+        2013</p>
     </div>
-    <h1 class="logo-name">
-      <span class="oui">oui</span><span class="share">share</span>
-    </h1>
-    </div>
+  </div>
+
 </header>
 <!--  / HEADER -->
 

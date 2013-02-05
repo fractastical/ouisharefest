@@ -89,11 +89,11 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /*.nav-link:visited {color:rgba(252,238,33,1);}*/
 .nav-link .yellow {color:rgba(252,238,33,1);}
 .nav-link .current {color:rgba(252,238,33,1);}
-.facebook {margin-left:6em;margin-right:-2em;}
+.facebook {margin-left:6em;}
 .facebook .facebook_icon{width:30px;height:30px;border-radius:50%;}
 .twitter {margin-left: -2em;}
 .twitter .twitter_icon{width:30px;height:30px;border-radius:50%;}
-.blog{color:#b3b3ff;margin-left: -1em;}
+.blog{color:#b3b3ff;}
 .fr{color:#b3b3ff;padding-left:10px;}
 /* =============================================================================
    HEADER
@@ -105,13 +105,13 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
   background-size: 100% auto;
   height:100%;
 }
-.smallname{display:block;float:left;font-size:2em;margin-left:100px;}
+.smallname{display:block;float:left;font-size:2em;margin-left:150px;}
 .oui {font-family:blanchcondensed_light;}
 .share {font-family:blanchcondensed;}
 .fonderie{float:left;padding-top:-20px;margin-top:-20px;}
 .presskit{
    float:right;
-   margin-right:100px;
+   margin-right:150px;
    background:color:rgba(252,238,33,1);
    margin-top:-60px;
    width: 150px;
@@ -121,14 +121,28 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
 }
-.presskittext{margin-top:25px;font-size:2em;color:rgba(0,0,255,1);}
+.presskittext{margin-top:25px;font-size:1.6em;color:rgba(0,0,255,1);}
+.wave{
+  display:block;
+  height:27px;
+  width:150px;
+  float:left;
+  margin-left:150px;
+  margin-top:100px;
+}
 .date{
     display:block;
+    width: 130px;
+    height:600px;
     float:left;
-    margin-left:100px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.date p{
     font-family:blanchcaps;
-    font-size: 6em;
-    color: rgba(230,230,255,1);
+    font-size: 5em;
+    line-height:1em;
+    color: #b3b3ff;
 }
 
 /* =============================================================================
