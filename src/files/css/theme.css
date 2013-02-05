@@ -184,54 +184,63 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /* =============================================================================
    TOPICS
    ========================================================================== */
-.topics {padding-top: -100px;color:white;}
+.topics {
+   padding-top: -100px;
+   color:white;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  transition: all .4s linear;
+}
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-section.tab.first{
+.topic1{
     background: url('../img/backgrounds/topic1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
 }
-section.tab.second{
+.topic2{
     background: url('../img/backgrounds/topic2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
 }
 .topic3{
     background: url('../img/backgrounds/topic3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
 }
 .topic4{
     background: url('../img/backgrounds/topic4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
 }
 .topic5{
     background: url('../img/backgrounds/topic5.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
 }
 .tab-switcher {
   height:100%;
   position: relative;
 }
-.tab-switcher label {
+.tab{
+    float:left;
 }
-section.tab label{
+.tab-switcher label{
     z-index: 2;
     padding: 8px;
     position:absolute;
@@ -246,7 +255,6 @@ section.tab label{
     -ms-transition: all .4s linear;
     transition: all .4s linear;
 }
-
 section.tab.first label{
     right: 820px;
 }
@@ -265,15 +273,23 @@ section.tab.fifth label{
 .tab-switcher label:hover {
   cursor: pointer;
 }
-
 .tab-content {
   position:absolute;
-  left:400px;
-  top:200px;
-  font-weight:bolder;
-  padding: 20px;
-  width: 700px;
+  width: 100%;
+  height:100%;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.topicframe{
+  margin: auto;
+  margin-top:200px;
+  width: 600px;
   height:300px;
+  background: rgba(0,0,255,0.6);
+  padding: 20px;
   -webkit-transition: all .4s linear;
   -moz-transition: all .4s linear;
   -o-transition: all .4s linear;
@@ -287,11 +303,7 @@ section.tab.fifth label{
 
 .tab-switcher input[type=radio]:checked ~ .tab-content {
   z-index: 1;
-  background:rgba(166,166,255,0.9);
 }
-.tab-switcher input[type=radio]:checked ~ .section.tab {
-}
-
 .tab-switcher input[type=radio]:checked ~ label {
   z-index: 2;
   background: rgba(252,238,33,1);
