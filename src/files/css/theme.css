@@ -334,7 +334,7 @@ section.tab.fifth label{
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speakers{display:block;}
+.speakers{display:block;padding-top:100px;}
 .speaker-photo .photo {
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0,0,0,.07);
@@ -374,11 +374,13 @@ section.tab.fifth label{
 /* =============================================================================
    PARTNERS
    ========================================================================== */
+.partners{padding-top:100px;}
 .contact{padding:10px 10px 10px 10px; border-radius:50px; background-color:yellow;}
 
 /* =============================================================================
    SPONSORS/TEAM
    ========================================================================== */
+.sponsors{padding-top:100px;}
 .sponsor-link, .partner-link {
   background:#fff;
   border:1px solid #ccc;
@@ -415,6 +417,7 @@ section.tab.fifth label{
    CONTRIBUTE
    ========================================================================== */
 .contribute{
+    padding-top:100px;
     background: url('../img/backgrounds/topic6.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
