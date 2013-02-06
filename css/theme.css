@@ -122,34 +122,26 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 }
 .presskittext{margin-top:25px;font-size:1.6em;color:rgba(0,0,255,1);}
 .wave{
-    height:27px;
-    width:150px;
-    margin-left:150px;
-    margin-top:100px;
+  display:block;
+  height:27px;
+  width:150px;
+  float:left;
+  margin-left:150px;
+  margin-top:100px;
 }
 .date{
+    display:block;
     width: 130px;
     height:600px;
+    float:left;
     margin-top:20px;
-    margin-left:150px;
+    margin-left:20px;
 }
 .date p{
     font-family:blanchcaps;
     font-size: 5em;
     line-height:1em;
     color: #b3b3ff;
-}
-.interlogo{
-    margin-top:-660px;
-    margin-left:350px;
-    width:1100px;
-    height:600px;
-}
-iframe[seamless]{
-    background-color: transparent;
-    border: 0px none transparent;
-    padding: 0px;
-    overflow: hidden;
 }
 /* =============================================================================
    CONTENT
