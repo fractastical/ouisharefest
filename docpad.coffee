@@ -308,8 +308,8 @@ module.exports =
       name: "Flore Berlingen"
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
-      tags: "#Coordination #Community #Partnerships"
-      quote: "This fest will be a collaborative experience. I dare you ;)"
+      tags: "#Coordination"
+      quote: "I am working to make this Fest a truly collaborative experience."
     ,
       name: "Benjamin Tincq"
       photo: "img/team/Team_Ben.jpg"
@@ -326,7 +326,7 @@ module.exports =
       name: "Francesca Pick"
       photo: "img/team/Team_Francesca.jpg"
       twitter: "Francesca_sp"
-      tags: "#Communication #PR"
+      tags: "#Communication #PR #Program"
       quote: "I can't wait to finally bring together all the mover's and shakers in the European collaborative economy!"
     ,
       name: "Cristobal Garcia"
@@ -362,19 +362,19 @@ module.exports =
       name: "Jean-Baptiste Roger"
       photo: "img/team/Team_JB_Roger.jpg"
       twitter: "jbroger"
-      tags: "#Fonderie #IdF"
-      quote: "..."
-    ,
-      name: "Maria Nadejde"
-      photo: "img/team/Team_Maria.jpg"
-      twitter: "..."
-      tags: "#Fonderie"
-      quote: "..."
+      tags: "#Fonderie #IdF #Director"
+      quote: "Changing the world needs not only fresh ideas, but also new methods."
     ,
       name: "Karine Goldberg"
       photo: "img/team/Team_Karine.jpg"
       twitter: "KaSaraGold"
-      tags: "#Fonderie #IdF"
+      tags: "#Fonderie #IdF #Communication"
+      quote: "Together, we are stronger ! Let’s listen to the echo of the 'co'..."
+    ,
+      name: "Maria Nadejde"
+      photo: "img/team/Team_Maria.jpg"
+      twitter: "..."
+      tags: "#Fonderie #IdF #International"
       quote: "..."
     ]
 
