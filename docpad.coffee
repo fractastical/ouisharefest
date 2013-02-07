@@ -308,14 +308,14 @@ module.exports =
       name: "Flore Berlingen"
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
-      tags: "#Coordination"
-      quote: "I am working to make this Fest a truly collaborative experience."
+      tags: "#Coordination #Community"
+      quote: "I want to make this Fest a truly collaborative experience."
     ,
       name: "Benjamin Tincq"
       photo: "img/team/Team_Ben.jpg"
       twitter: "Btincq"
-      tags: "#Program #Coordination #Partnerships"
-      quote: "..."
+      tags: "#Program #CoDesign #Partnerships"
+      quote: "I can't wait :)"
     ,
       name: "Antonin Leonard"
       photo: "img/team/Team_Antonin.jpg"
@@ -327,9 +327,9 @@ module.exports =
       photo: "img/team/Team_Francesca.jpg"
       twitter: "Francesca_sp"
       tags: "#Communication #PR #Program"
-      quote: "I can't wait to finally bring together all the mover's and shakers in the European collaborative economy!"
+      quote: "I'm looking forward to bring together all the mover's and shakers in the European collaborative economy!"
     ,
-      name: "Cristobal Garcia"
+      name: "Cristobal Gracia"
       photo: "img/team/Team_Cristo.jpg"
       twitter: "CristobGarcia"
       tags: "#Experience #Play #Program #Community"
@@ -341,7 +341,7 @@ module.exports =
       tags: "#Community #Collaboration #Labs"
       quote: "All together we can make this world work for everyone!"
     ,
-      name: "Celya Gruson-Daniel"
+      name: "Célya Gruson-Daniel"
       photo: "img/team/Team_Celya.jpg"
       twitter: "Celyagd"
       tags: "#OpenScience #Program"
@@ -354,9 +354,9 @@ module.exports =
       quote: "I want to make this Fest, the Fest of learning"
     ,
       name: "Tomas Mancin"
-      photo: "img/team/Team_Tomas.jpg"
+      photo: "img/team/Teaim_Tomas.jpg"
       twitter: "T_M_Arch"
-      tags: "#CO_talk #Social #Alchemy"
+      tags: "#CoTalk #Social #Alchemy"
       quote: "I want to see the sparkles in their eyes!"
     ,
       name: "Jean-Baptiste Roger"
