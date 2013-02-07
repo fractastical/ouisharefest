@@ -56,28 +56,14 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "9h00"
     ,
-      name: "Lauren Anderson"
-      photo: "img/speakers/Speakers_Anderson_Lauren.jpg"
+      name: "Lisa Gansky"
+      photo: "img/speakers/Speakers_Gansky_Lisa.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "CollaborativeConsumption"
-      twitter: "linus"
+      company: "MeshLabs"
+      twitter: "woz"
       presentation:
-        title: "Digging into a Linux Kernel"
+        title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
-    ,
-      name: "Markus Barnikel"
-      photo: "img/speakers/Speakers_Barnikel_Markus.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Carpooling"
-      twitter: "billy95"
-      presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
-    ,
-      name: "Lunch"
-      time: "12h00"
     ,
       name: "Michel Bauwens"
       photo: "img/speakers/Speakers_Bauwens_Michel.jpg"
@@ -89,18 +75,15 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "13h00"
     ,
-      name: "Cedric Giorgi"
-      photo: "img/speakers/speakers_Giorgi_Cedric.jpg"
+      name: "Lauren Anderson"
+      photo: "img/speakers/Speakers_Anderson_Lauren.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Cookening"
-      twitter: "stevie"
+      company: "CollaborativeConsumption"
+      twitter: "linus"
       presentation:
-        title: "Presenting iPad"
+        title: "Digging into a Linux Kernel"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-    ,
-      name: "Coffee-break"
-      time: "15h00"
+        time: "10h00"
     ,
       name: "Alfons Cornella"
       photo: "img/speakers/Speakers_Cornella_Alfons.jpg"
@@ -112,38 +95,10 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "16h00"
      ,
-      name: "Edial Dekker"
-      photo: "img/speakers/Speakers_Dekker_Edial.jpg"
+      name: "Francois Taddei"
+      photo: "img/speakers/Speakers_Taddei_Francois.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Gidsy"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
-    ,
-      name: "Tomas Diez"
-      photo: "img/speakers/Speakers_Diez_Tomas.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "FabLab Barcelona"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Lisa Gansky"
-      photo: "img/speakers/Speakers_Gansky_Lisa.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "MeshLabs"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Thomas Lomee"
-      photo: "img/speakers/Speakers_Lommee_Thomas.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "OpenStructures"
+      company: "Center for Research and Interdisciplinarity"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -158,64 +113,32 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
+      name: "Helen Goulden"
+      photo: "img/speakers/Speakers_Goulden_Helen.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Nesta"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Markus Barnikel"
+      photo: "img/speakers/Speakers_Barnikel_Markus.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Carpooling"
+      twitter: "billy95"
+      presentation:
+        title: "Introducing Windows 12"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "11h00"
+    ,
+      name: "Lunch"
+      time: "12h00"
+    ,
       name: "Massimo Menichinelli"
       photo: "img/speakers/Speakers_Menichinelli_Massimo.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Aalto University FabLab"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Francois Taddei"
-      photo: "img/speakers/Speakers_Taddei_Francois.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Center for Research and Interdisciplinarity"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Zoe Romano"
-      photo: "img/speakers/Speakers_Romano_Zoe.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "OpenWear"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Olivier Schulbaum"
-      photo: "img/speakers/Speakers_Schulbaum_Olivier.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Goteo"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Guilhem Cheron"
-      photo: "img/speakers/Speakers_Cheron_Guilhem.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "La Ruche Qui Dit Oui"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Eric Van Der Broek"
-      photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Mutinerie"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Vincent Ricordeau"
-      photo: "img/speakers/Speakers_Ricordeau_Vincent.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "KissKissBankBank"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -230,10 +153,38 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Helen Goulden"
-      photo: "img/speakers/Speakers_Goulden_Helen.jpg"
+      name: "Edial Dekker"
+      photo: "img/speakers/Speakers_Dekker_Edial.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Nesta"
+      company: "Gidsy"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "17h00"
+    ,
+      name: "Thomas Lommee"
+      photo: "img/speakers/Speakers_Lommee_Thomas.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "OpenStructures"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Vincent Ricordeau"
+      photo: "img/speakers/Speakers_Ricordeau_Vincent.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "KissKissBankBank"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Zoe Romano"
+      photo: "img/speakers/Speakers_Romano_Zoe.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "OpenWear"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -257,15 +208,6 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Jean-Baptiste Roger"
-      photo: "img/speakers/Speakers_Roger.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "La Fonderie"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
       name: "Carsten Foertsch"
       photo: "img/speakers/Speakers_Foertsch_Carsten.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -275,14 +217,27 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Juho Makkonen"
-      photo: "img/speakers/Speakers_Makkonen_Juho.jpg"
+      name: "Thanh N'Ghiem"
+      photo: "img/speakers/Speakers_Nghiem_Thanh.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "ShareTribe"
+      company: "MoviLab"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Cedric Giorgi"
+      photo: "img/speakers/speakers_Giorgi_Cedric.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Cookening"
+      twitter: "stevie"
+      presentation:
+        title: "Presenting iPad"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
+    ,
+      name: "Coffee-break"
+      time: "15h00"
     ,
       name: "Benita Matofska"
       photo: "img/speakers/Speakers_Matofska_Benita.jpg"
@@ -293,10 +248,55 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Thanh N'Ghiem"
-      photo: "img/speakers/Speakers_Nghiem_Thanh.jpg"
+      name: "Olivier Schulbaum"
+      photo: "img/speakers/Speakers_Schulbaum_Olivier.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "MoviLab"
+      company: "Goteo"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Tomas Diez"
+      photo: "img/speakers/Speakers_Diez_Tomas.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "FabLab Barcelona"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Jean-Baptiste Roger"
+      photo: "img/speakers/Speakers_Roger.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "La Fonderie"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Guilhem Cheron"
+      photo: "img/speakers/Speakers_Cheron_Guilhem.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "La Ruche Qui Dit Oui"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Eric Van Der Broek"
+      photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Mutinerie"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Juho Makkonen"
+      photo: "img/speakers/Speakers_Makkonen_Juho.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "ShareTribe"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
