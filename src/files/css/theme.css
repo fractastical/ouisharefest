@@ -169,17 +169,8 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     font-size:2em;
     line-height:1.8em;
 }
-.aboutleft{
-    display:block;
-    float:left;
-    width:400px;
-    margin:20px;
-}
-.aboutright{
-    display:inline-block;
-    width:400px;
-    float:right;
-    margin:20px;
+.abouttext{
+    padding: 30px;
 }
 
 /* =============================================================================
