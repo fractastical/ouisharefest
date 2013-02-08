@@ -319,7 +319,7 @@ section.tab.fifth label{
   padding-top:100px;
   margin-right:200px;
   margin-left:150px;
-  height: 200% !important;
+  height: 250% !important;
 }
 .speaker-photo .photo {
   border-radius: 50%;
@@ -347,7 +347,7 @@ section.tab.fifth label{
   background:#2b2b2b;
   border-radius: 8px;
 }
-.speakerstext{float: right; margin-right:600px;margin-top:-100px;font-size:1.6em;font-weight:bold;}
+.speakerstext{float: right;margin-top:-100px;font-size:1.6em;font-weight:bold;}
 
 /* =============================================================================
    SCHEDULE
