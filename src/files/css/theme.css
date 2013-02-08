@@ -377,6 +377,7 @@ section.tab.fifth label{
 }
 .logo img{
     max-width:100%;
+    padding:10px;
     width:100%;
 }
 .shareable{
@@ -461,12 +462,6 @@ section.tab.fifth label{
     -o-background-size: cover;
     background-size: cover;;
 }
-.contributetext{
-    display:block;
-    width: 800px;
-    margin: auto;
-    margin-top:100px;
-}
 .call{
     background-color:#5c2bdb;
     width: 240px;
@@ -482,22 +477,17 @@ section.tab.fifth label{
     font-size:1.2em;
     padding:20px;
     padding-top:30px;
-    margin-top:10px;
 }
 .post {
-    margin-left:460px;
 }
 .host{
-    margin-left:720px;
-    margin-top:-80px;
+    margin-top:0px;
 }
 .volunteer{
-    margin-top: -100px;
-    margin-left: 250px;
+    margin-top: 0px;
 }
 .become {
-    margin-top: -80px;
-    margin-left: 900px;
+    margin-top: 0px;
 }
 /* =============================================================================
    REGISTER
@@ -509,8 +499,6 @@ section.tab.fifth label{
 }
 .register p {
     font-size: 1.2em;
-}
-.registerleft{
 }
 .registerright{
     color: #666;
@@ -539,7 +527,6 @@ section.tab.fifth label{
 .registerdown{
     margin-top: -50px;
 }
-
 /* =============================================================================
    CONTACT
    ========================================================================== */
