@@ -104,15 +104,12 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
   background-size: 100% auto;
   height:100%;
 }
-.smallname{display:block;float:left;font-size:2em;margin-left:150px;}
+.smallname{font-size:2em;}
 .oui {font-family:blanchcondensed_light;}
 .share {font-family:blanchcondensed;}
-.fonderie{float:left;padding-top:-20px;margin-top:-20px;}
-.presskit{
-   float:right;
-   margin-right:150px;
+.fonderie{}
+.presskitshape{
    background:color:rgba(252,238,33,1);
-   margin-top:-60px;
    width: 150px;
    height: 80px;
    background: rgba(252,238,33,1);
@@ -120,20 +117,11 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
 }
-.presskittext{margin-top:25px;font-size:1.6em;color:rgba(0,0,255,1);}
+.presskittext{padding:20px;font-size:1.6em;color:rgba(0,0,255,1);}
 .wave{
-  display:block;
-  height:27px;
-  width:150px;
-  float:left;
-  margin-left:150px;
-  margin-top:100px;
+  margin-top:50px;
 }
 .date{
-    display:block;
-    width: 130px;
-    height:600px;
-    float:left;
     margin-top:20px;
     margin-left:20px;
 }
@@ -143,6 +131,18 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     line-height:1em;
     color: #b3b3ff;
 }
+.iframe-rwd  {
+position: relative;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
 /* =============================================================================
    CONTENT
    ========================================================================== */
@@ -150,12 +150,16 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about{background:rgba(0,0,255,1);}
+.about{
+    background: url('../img/backgrounds/background-about.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .aboutframe {
-    margin:auto;
     font-size: 0.8em;
     height:500px;
-    width:900px;
     margin-top: 80px;
     background:rgba(255,255,255, 0.7);
 }
@@ -163,17 +167,8 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     font-size:2em;
     line-height:1.8em;
 }
-.aboutleft{
-    display:block;
-    float:left;
-    width:400px;
-    margin:20px;
-}
-.aboutright{
-    display:inline-block;
-    width:400px;
-    float:right;
-    margin:20px;
+.abouttext{
+    padding: 30px;
 }
 
 /* =============================================================================
@@ -322,7 +317,7 @@ section.tab.fifth label{
   padding-top:100px;
   margin-right:200px;
   margin-left:150px;
-  height: 200% !important;
+  height: 250% !important;
 }
 .speaker-photo .photo {
   border-radius: 50%;
@@ -350,7 +345,7 @@ section.tab.fifth label{
   background:#2b2b2b;
   border-radius: 8px;
 }
-.speakerstext{float: right; margin-right:600px;margin-top:-100px;font-size:1.6em;font-weight:bold;}
+.speakerstext{float: right;margin-top:-100px;font-size:1.6em;font-weight:bold;}
 
 /* =============================================================================
    SCHEDULE
@@ -374,36 +369,34 @@ section.tab.fifth label{
 /* =============================================================================
    PARTNERS
    ========================================================================== */
-.partners{padding-top:100px;background:#999;}
+.partners{
+    padding-top:100px;
+    background: url('../img/backgrounds/background-partners.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .partnersframe{
     background:white;
-    display:block;
-    margin: auto;
-    margin-top:80px;
-    width: 800px;
     height: 400px;
 }
 .fonderie2{
-    display:block;
-    width:400px;
     height:171px;
-    margin: auto;
 }
-.logo{
-    margin-right:42.5px;
-    margin-left:42.5px;
-    display:inline-block;
-    width:150px;
-    height:104px;
+.fonderie2 img{
+    max-width:100%;
+}
+.logo img{
+    padding-top:20px;
+    width:100%;
 }
 .shareable{
-    margin-left:90px;
 }
 .meshlabs{
-    margin-left:90px;
 }
 
-.partnerstext{margin-left:380px;margin-top:10px;font-size:1em;}
+.partnerstext{margin-top:10px;font-size:1em;}
 .contact{padding:10px 10px 10px 10px; border-radius:50px; background-color:yellow;}
 
 /* =============================================================================
@@ -480,14 +473,8 @@ section.tab.fifth label{
     -o-background-size: cover;
     background-size: cover;;
 }
-.contributetext{
-    display:block;
-    width: 800px;
-    margin: auto;
-    margin-top:100px;
-}
 .call{
-    background-color: rgba(0,0,255,1);
+    background-color:#5c2bdb;
     width: 240px;
     height: 140px;
     -moz-border-radius: 100px / 50px;
@@ -504,19 +491,15 @@ section.tab.fifth label{
     margin-top:10px;
 }
 .post {
-    margin-left:460px;
 }
 .host{
-    margin-left:720px;
-    margin-top:-80px;
+    margin-top:0px;
 }
 .volunteer{
-    margin-top: -100px;
-    margin-left: 250px;
+    margin-top: 0px;
 }
 .become {
-    margin-top: -80px;
-    margin-left: 900px;
+    margin-top: 0px;
 }
 /* =============================================================================
    REGISTER
@@ -529,18 +512,8 @@ section.tab.fifth label{
 .register p {
     font-size: 1.2em;
 }
-.registerleft{
-    display:block;
-    float:left;
-    width:400px;
-    margin-left:250px;
-}
 .registerright{
-    display:inline-block;
-    width:200px;
-    float:right;
     color: #666;
-    margin-right:500px;
     margin-top:50px;
 }
 .registerright p{
@@ -548,7 +521,6 @@ section.tab.fifth label{
     font-size: 1em;
 }
 .registerbutton{
-    margin-left:1100px;
     margin-top:340px;
     background-color: rgba(0,0,255,1);
     width: 200px;
@@ -561,16 +533,12 @@ section.tab.fifth label{
     color:white;
     text-transform:uppercase;
     text-align:center;
+    padding:20px;
 }
 
 .registerdown{
-    display:block;
-    float:left;
-    margin-left:250px;
     margin-top: -50px;
-    width: 800px;
 }
-
 /* =============================================================================
    CONTACT
    ========================================================================== */

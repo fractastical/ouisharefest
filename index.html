@@ -25,6 +25,7 @@
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/theme.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
   <!-- / STYLES -->
@@ -85,17 +86,32 @@
     <!-- HEADER -->
 <header class="header">
   <div class="wrapper">
-    <div><p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
-    <span class="fonderie"><img src='img/fonderiesmall.jpg'></span></div>
-    <div class="presskit"><div class="presskittext"><a href=#>presskit</a></div></div>
-    <div class="wave"><img src='img/wave.png'/>
-    <div class="date">
-      <p>may
-        2-3-4
-        2013</p>
+    <div class="row-fluid">
+      <div class="span4 offset1">
+        <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
+        <span class="fonderie"><img src='img/fonderiesmall.jpg'></span>
+      </div>
+      <div class="presskit span2 offset4">
+        <div class="presskitshape">
+          <div class="presskittext"><a href=#>presskit</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
+    <div class="row-fluid">
+      <div class="wave span2 offset1"><img src='img/wave.png'/>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="date span2 offset1">
+        <p>may<br/>
+          2-3-4<br/>
+          2013</p>
+      </div>
+      <div class="iframe-rwd span8">
+        <iframe src="http://ouisharefest.com/logo/"></iframe>
+      </div>
+    </div>
 </header>
 <!--  / HEADER -->
 
@@ -108,20 +124,19 @@
   <!-- ABOUT -->
 
   <section class="about" id="about">
-    <div class="aboutframe">
-<div class="aboutleft">
-<h3>The first major European event dedicated to the collaborative economy.</h3>
-<p itemprop="description">This three days festival will bring together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future.<br/>
-<strong>Paris, May 2-3-4, 2013.</strong>
-</p>
-</div>
-
-<div class="aboutright">
-<h3>Not just another business conference.</h3>
-<p></p>
-<p>Co-designed with its community, Ouishare Fest will feature a wide range of hands-on activities and conclude with great live music.<br/>
-<strong>Day 1-2</strong> will gather 500 professionals (startups, innovators, enterprises, investors, ...) and public officials.<br/>
-<strong>Day 3</strong> will be free and open to the public to raise awareness among a broader audience.</p>
+    <div class="row-fluid">
+<div class="aboutframe span6 offset3">
+  <div class="abouttext">
+    <h3>The first major European event dedicated to the collaborative economy.</h3>
+    <p itemprop="description">This three days festival will bring together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future.<br/>
+    <strong>Paris, May 2-3-4, 2013.</strong>
+    </p>
+    <h3>Not just another business conference.</h3>
+    <p></p>
+    <p>Co-designed with its community, Ouishare Fest will feature a wide range of hands-on activities and great live music.<br/>
+    <strong>Day 1-2</strong> will gather 500 professionals and public officials.<br/>
+    <strong>Day 3</strong> will be free and open to the public.</p>
+  </div>
 </div>
 </div>
 
@@ -204,6 +219,46 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Gansky_Lisa.jpg" alt="Lisa Gansky" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Lisa Gansky</h3>
+      <span class="speakers-company"><p>MeshLabs</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Bauwens_Michel.jpg" alt="Michel Bauwens" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">13h00</span>
+        
+          <span> How to kill a elephant with one finger</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Michel Bauwens</h3>
+      <span class="speakers-company"><p>P2P Foundation</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
           <img class="photo" src="img/speakers/Speakers_Anderson_Lauren.jpg" alt="Lauren Anderson" itemprop="image">
         </span>
       
@@ -217,6 +272,105 @@
 
       <h3 class="speakers-name">Lauren Anderson</h3>
       <span class="speakers-company"><p>CollaborativeConsumption</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/stiegler.jpg" alt="Bernard Stiegler" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">10h00</span>
+        
+          <span> Digging into a Linux Kernel</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Bernard Stiegler</h3>
+      <span class="speakers-company"><p></p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Cornella_Alfons.jpg" alt="Alfons Cornella" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">16h00</span>
+        
+          <span> Revealing Facebook Secrets</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Alfons Cornella</h3>
+      <span class="speakers-company"><p>Co-Society</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum diolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Taddei_Francois.jpg" alt="François Taddei" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">François Taddei</h3>
+      <span class="speakers-company"><p>Center for Research and Interdisciplinarity</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Mazella_Frederic.jpg" alt="Frédéric Mazella" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Frédéric Mazella</h3>
+      <span class="speakers-company"><p>BlaBlaCar</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Goulden_Helen.jpg" alt="Helen Goulden" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Helen Goulden</h3>
+      <span class="speakers-company"><p>Nesta</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -248,19 +402,17 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Bauwens_Michel.jpg" alt="Michel Bauwens" itemprop="image">
+          <img class="photo" src="img/speakers/Speakers_Menichinelli_Massimo.jpg" alt="Massimo Menichinelli" itemprop="image">
         </span>
       
 
 <!--      <h3 class="speech-title">
         
-          <span class="speech-time">13h00</span>
-        
-          <span> How to kill a elephant with one finger</span>
+          <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Michel Bauwens</h3>
-      <span class="speakers-company"><p>P2P Foundation</p></span>
+      <h3 class="speakers-name">Massimo Menichinelli</h3>
+      <span class="speakers-company"><p>Aalto University FabLab</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -269,43 +421,37 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/speakers_Giorgi_Cedric.jpg" alt="Cedric Giorgi" itemprop="image">
+          <img class="photo" src="img/speakers/Speakers_Lazorthes_Celine.jpg" alt="Céline Lazorthes" itemprop="image">
         </span>
       
 
 <!--      <h3 class="speech-title">
         
-          <span class="speech-time">14h00</span>
-        
-          <span> Presenting iPad</span>
+          <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Cedric Giorgi</h3>
-      <span class="speakers-company"><p>Cookening</p></span>
+      <h3 class="speakers-name">Céline Lazorthes</h3>
+      <span class="speakers-company"><p>Leetchi</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
-  
-
   
 
   
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Cornella_Alfons.jpg" alt="Alfons Cornella" itemprop="image">
+          <img class="photo" src="img/speakers/justice.jpg" alt="Joe Justice" itemprop="image">
         </span>
       
 
 <!--      <h3 class="speech-title">
         
-          <span class="speech-time">16h00</span>
-        
-          <span> Revealing Facebook Secrets</span>
+          <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Alfons Cornella</h3>
-      <span class="speakers-company"><p>Co-Society</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum diolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+      <h3 class="speakers-name">Joe Justice</h3>
+      <span class="speakers-company"><p>Wikispeed</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
 
@@ -334,7 +480,7 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Diez_Tomas.jpg" alt="Tomas Diez" itemprop="image">
+          <img class="photo" src="img/speakers/Speakers_Lommee_Thomas.jpg" alt="Thomas Lommée" itemprop="image">
         </span>
       
 
@@ -343,179 +489,8 @@
           <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Tomas Diez</h3>
-      <span class="speakers-company"><p>FabLab Barcelona</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Gansky_Lisa.jpg" alt="Lisa Gansky" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Lisa Gansky</h3>
-      <span class="speakers-company"><p>MeshLabs</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Lommee_Thomas.jpg" alt="Thomas Lomee" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Thomas Lomee</h3>
+      <h3 class="speakers-name">Thomas Lommée</h3>
       <span class="speakers-company"><p>OpenStructures</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Mazella_Frederic.jpg" alt="Frederic Mazella" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Frederic Mazella</h3>
-      <span class="speakers-company"><p>BlaBlaCar</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Menichinelli_Massimo.jpg" alt="Massimo Menichinelli" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Massimo Menichinelli</h3>
-      <span class="speakers-company"><p>Aalto University FabLab</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Taddei_Francois.jpg" alt="Francois Taddei" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Francois Taddei</h3>
-      <span class="speakers-company"><p>Center for Research and Interdisciplinarity</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Romano_Zoe.jpg" alt="Zoe Romano" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Zoe Romano</h3>
-      <span class="speakers-company"><p>OpenWear</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Schulbaum_Olivier.jpg" alt="Olivier Schulbaum" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Olivier Schulbaum</h3>
-      <span class="speakers-company"><p>Goteo</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Cheron_Guilhem.jpg" alt="Guilhem Cheron" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Guilhem Cheron</h3>
-      <span class="speakers-company"><p>La Ruche Qui Dit Oui</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_VanDenBroek_Eric.jpg" alt="Eric Van Der Broek" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Eric Van Der Broek</h3>
-      <span class="speakers-company"><p>Mutinerie</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -543,7 +518,7 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Lazorthes_Celine.jpg" alt="Celine Lazorthes" itemprop="image">
+          <img class="photo" src="img/speakers/Speakers_Romano_Zoe.jpg" alt="Zoé Romano" itemprop="image">
         </span>
       
 
@@ -552,27 +527,8 @@
           <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Celine Lazorthes</h3>
-      <span class="speakers-company"><p>Leetchi</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Goulden_Helen.jpg" alt="Helen Goulden" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Helen Goulden</h3>
-      <span class="speakers-company"><p>Nesta</p></span>
+      <h3 class="speakers-name">Zoé Romano</h3>
+      <span class="speakers-company"><p>OpenWear</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -619,25 +575,6 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Roger.jpg" alt="Jean-Baptiste Roger" itemprop="image">
-        </span>
-      
-
-<!--      <h3 class="speech-title">
-        
-          <span> Why do I prefer Android over iPhone</span>
-      </h3>-->
-
-      <h3 class="speakers-name">Jean-Baptiste Roger</h3>
-      <span class="speakers-company"><p>La Fonderie</p></span>
-<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
-    </li>
-  
-
-  
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      
-        <span class="speaker-photo">
           <img class="photo" src="img/speakers/Speakers_Foertsch_Carsten.jpg" alt="Carsten Foertsch" itemprop="image">
         </span>
       
@@ -657,7 +594,28 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Makkonen_Juho.jpg" alt="Juho Makkonen" itemprop="image">
+          <img class="photo" src="img/speakers/speakers_Giorgi_Cedric.jpg" alt="Cédric Giorgi" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Cédric Giorgi</h3>
+      <span class="speakers-company"><p>Cookening</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Nghiem_Thanh.jpg" alt="Thanh N'Ghiem" itemprop="image">
         </span>
       
 
@@ -666,8 +624,115 @@
           <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Juho Makkonen</h3>
-      <span class="speakers-company"><p>ShareTribe</p></span>
+      <h3 class="speakers-name">Thanh N'Ghiem</h3>
+      <span class="speakers-company"><p>MoviLab</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/gremillon.jpg" alt="Olivier Grémillon" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Olivier Grémillon</h3>
+      <span class="speakers-company"><p>Airbnb</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/amistani.jpg" alt="Jacopo Amistani" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Jacopo Amistani</h3>
+      <span class="speakers-company"><p>Open Source Ecology</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/cousins.jpg" alt="Jay Cousins" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Jay Cousins</h3>
+      <span class="speakers-company"><p> </p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/becker.jpg" alt="Julianne Becker" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Julianne Becker</h3>
+      <span class="speakers-company"><p>Deskwanted </p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/alteresco.jpg" alt="Clément Alteresco" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span class="speech-time">14h00</span>
+        
+          <span> Presenting iPad</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Clément Alteresco</h3>
+      <span class="speakers-company"><p>Bureaux à Partager</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -695,7 +760,7 @@
     <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
       
         <span class="speaker-photo">
-          <img class="photo" src="img/speakers/Speakers_Nghiem_Thanh.jpg" alt="Thanh N'Ghiem" itemprop="image">
+          <img class="photo" src="img/speakers/Speakers_Schulbaum_Olivier.jpg" alt="Olivier Schulbaum" itemprop="image">
         </span>
       
 
@@ -704,8 +769,122 @@
           <span> Why do I prefer Android over iPhone</span>
       </h3>-->
 
-      <h3 class="speakers-name">Thanh N'Ghiem</h3>
-      <span class="speakers-company"><p>MoviLab</p></span>
+      <h3 class="speakers-name">Olivier Schulbaum</h3>
+      <span class="speakers-company"><p>Goteo</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Diez_Tomas.jpg" alt="Tomas Diez" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Tomas Diez</h3>
+      <span class="speakers-company"><p>FabLab Barcelona</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Roger.jpg" alt="Jean-Baptiste Roger" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Jean-Baptiste Roger</h3>
+      <span class="speakers-company"><p>La Fonderie</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/boisseau.jpg" alt="Magalie Boisseau-Becceril" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Magalie Boisseau-Becceril</h3>
+      <span class="speakers-company"><p>Bedycasa</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Cheron_Guilhem.jpg" alt="Guilhem Chéron" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Guilhem Chéron</h3>
+      <span class="speakers-company"><p>La Ruche Qui Dit Oui</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_VanDenBroek_Eric.jpg" alt="Eric Van Der Broek" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Eric Van Der Broek</h3>
+      <span class="speakers-company"><p>Mutinerie</p></span>
+<!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo">
+          <img class="photo" src="img/speakers/Speakers_Makkonen_Juho.jpg" alt="Juho Makkonen" itemprop="image">
+        </span>
+      
+
+<!--      <h3 class="speech-title">
+        
+          <span> Why do I prefer Android over iPhone</span>
+      </h3>-->
+
+      <h3 class="speakers-name">Juho Makkonen</h3>
+      <span class="speakers-company"><p>ShareTribe</p></span>
 <!--      <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>-->
     </li>
   
@@ -719,31 +898,43 @@
   <!-- PARTNERS -->
 
   <section class="partners" id="partners">
-    <div class="partnersframe">
-  <div class="fonderie2">
-     <img src="img/fonderie.jpg"/>
-  </div>
-  <div class="shareable logo">
-     <img src="img/shareable.jpg"/>
-  </div>
-  <div class="cc logo">
-    <img src="img/fing.jpg"/>
-  </div>
-  <div class="p2p logo">
-    <img src="img/shareable.jpg"/>
-  </div>
-  <div class="meshlabs logo">
-    <img src="img/fing.jpg"/>
-  </div>
-  <div class="deskmag logo">
-    <img src="img/deskmag.jpg"/>
-  </div>
-  <div class="fing logo">
-    <img src="img/fing.jpg">
+    <div class="row-fluid">
+  <div class="partnersframe span6 offset3">
+    <div class="row-fluid">
+      <div class="fonderie2 span6 offset3">
+        <img src="img/fonderie.jpg"/>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="shareable logo span4">
+        <img src="img/shareable.svg"/>
+      </div>
+      <div class="cc logo span4">
+        <img src="img/cc.svg"/>
+      </div>
+      <div class="p2p logo span4">
+        <img src="img/p2p.svg"/>
+      </div>
+    </div>
+    <div class="row-fuid">
+      <div class="meshlabs logo span4">
+        <img src="img/meshlabs.svg"/>
+      </div>
+      <div class="deskmag logo span4">
+        <img src="img/deskmag.svg"/>
+      </div>
+      <div class="fing logo span4">
+        <img src="img/fing.svg">
+      </div>
+    </div>
   </div>
 </div>
-<div class="partnerstext"><p>If you would like to become a partner,<br/>
+<div class="row-fluid">
+  <div class="span5 offset3">
+    <div class="partnerstext"><p>If you would like to become a partner,<br/>
 please contact us at <span class="contact">partners@ouishare.net</span></div>
+  </div>
+</div>
   </section>
 
   <!-- / PARTNERS -->
@@ -765,8 +956,8 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
       <div class="sponsor-details">
         <h3 class="sponsor-name">Flore Berlingen</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@FloreBerlin</p></span>
-        <span class="sponsor-tags"><p>#Coordination</p></span>
-        <span class="sponsor-quote"><p>I am working to make this Fest a truly collaborative experience.</p></span>
+        <span class="sponsor-tags"><p>#Coordination #Community</p></span>
+        <span class="sponsor-quote"><p>I want to make this Fest a truly collaborative experience.</p></span>
       </div>
       </li>
     
@@ -777,17 +968,17 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
       <div class="sponsor-details">
         <h3 class="sponsor-name">Benjamin Tincq</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@Btincq</p></span>
-        <span class="sponsor-tags"><p>#Program #Coordination #Partnerships</p></span>
-        <span class="sponsor-quote"><p>...</p></span>
+        <span class="sponsor-tags"><p>#Program #CoDesign #Partnerships</p></span>
+        <span class="sponsor-quote"><p>I can't wait :)</p></span>
       </div>
       </li>
     
       <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
       <div class="sponsor-photo">
-        <img src="img/team/Team_Antonin.jpg" alt="Antonin Leonard" class="photo" itemprop="image">
+        <img src="img/team/Team_Antonin.jpg" alt="Antonin Léonard" class="photo" itemprop="image">
       </div>
       <div class="sponsor-details">
-        <h3 class="sponsor-name">Antonin Leonard</h3>
+        <h3 class="sponsor-name">Antonin Léonard</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@AntoLeonard</p></span>
         <span class="sponsor-tags"><p>#Partnerships #PR #Program</p></span>
         <span class="sponsor-quote"><p>Let's fucking do it</p></span>
@@ -802,16 +993,16 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
         <h3 class="sponsor-name">Francesca Pick</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@Francesca_sp</p></span>
         <span class="sponsor-tags"><p>#Communication #PR #Program</p></span>
-        <span class="sponsor-quote"><p>I can't wait to finally bring together all the mover's and shakers in the European collaborative economy!</p></span>
+        <span class="sponsor-quote"><p>I'm looking forward to bring together all the mover's and shakers in the European collaborative economy!</p></span>
       </div>
       </li>
     
       <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
       <div class="sponsor-photo">
-        <img src="img/team/Team_Cristo.jpg" alt="Cristobal Garcia" class="photo" itemprop="image">
+        <img src="img/team/Team_Cristo.jpg" alt="Cristobal Gracia" class="photo" itemprop="image">
       </div>
       <div class="sponsor-details">
-        <h3 class="sponsor-name">Cristobal Garcia</h3>
+        <h3 class="sponsor-name">Cristobal Gracia</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@CristobGarcia</p></span>
         <span class="sponsor-tags"><p>#Experience #Play #Program #Community</p></span>
         <span class="sponsor-quote"><p>Let's play hard the collaborative game. It's gonna be AWESOME.</p></span>
@@ -832,10 +1023,10 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
     
       <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
       <div class="sponsor-photo">
-        <img src="img/team/Team_Celya.jpg" alt="Celya Gruson-Daniel" class="photo" itemprop="image">
+        <img src="img/team/Team_Celya.jpg" alt="Célya Gruson-Daniel" class="photo" itemprop="image">
       </div>
       <div class="sponsor-details">
-        <h3 class="sponsor-name">Celya Gruson-Daniel</h3>
+        <h3 class="sponsor-name">Célya Gruson-Daniel</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@Celyagd</p></span>
         <span class="sponsor-tags"><p>#OpenScience #Program</p></span>
         <span class="sponsor-quote"><p>If you have knowledge, let other light their candles at it. (Margaret Fuller)</p></span>
@@ -856,12 +1047,12 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
     
       <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
       <div class="sponsor-photo">
-        <img src="img/team/Team_Tomas.jpg" alt="Tomas Mancin" class="photo" itemprop="image">
+        <img src="img/team/Teaim_Tomas.jpg" alt="Tomas Mancin" class="photo" itemprop="image">
       </div>
       <div class="sponsor-details">
         <h3 class="sponsor-name">Tomas Mancin</h3>
         <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@T_M_Arch</p></span>
-        <span class="sponsor-tags"><p>#CO_talk #Social #Alchemy</p></span>
+        <span class="sponsor-tags"><p>#CoTalk #Social #Alchemy</p></span>
         <span class="sponsor-quote"><p>I want to see the sparkles in their eyes!</p></span>
       </div>
       </li>
@@ -923,31 +1114,45 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
   <!-- CONTRIBUTE -->
 
   <section class="contribute" id="contribute">
-    <div class="contributetext">
-<h3>Not just another business conference</h3>
-<p>From its conceptualization to d-day, OuiShare Fest will be co-designed by the OuiShare community and its partners to make this event a truly collaborative experience.</p>
+    <div class="row-fluid">
+  <div class="contributetext span7 offset2">
+    <h3>Not just another business conference</h3>
+    <p>From its conceptualization to d-day, OuiShare Fest will be co-designed by the OuiShare community and its partners to make this event a truly collaborative experience.</p>
+  </div>
 </div>
-<div class="call post">
+<div class="row-fluid">
+  <div class="call post span2 offset4">
+    <a href="http://wallwisher.com/wall/OuiShareFest">
     <p>Post an idea<br/>
-    on our idea wall</p>
+     on our idea wall</p>
+    </a>
+  </div>
 </div>
-<div class="host call">
-  <p>
+<div class="row-fluid">
+  <div class="host call span2 offset5">
+    <p>
     Host<br/>
     a satellite event
-  </p>
+    </p>
+  </div>
 </div>
-<div class="volunteer call">
-  <p>
+<div class="row-fluid">
+  <div class="volunteer call span2 offset2">
+    <p>
     Volunteer<br/>
     For the d-day
-  </p>
+    </p>
+  </div>
 </div>
-<div class="become call">
-  <p>
+<div class="row-fluid">
+  <div class="become call span2 offset8">
+    <a href="mailto:partners@ouisharefest.com">
+    <p>
     Become<br/>
     a sponsor
-  </p>
+    </p>
+    </a>
+  </div>
 </div>
   </section>
 
@@ -956,28 +1161,36 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
   <!-- REGISTER -->
 
   <section class="register" id="register">
-    <div class="registerleft"><h3>Days 1 and 2</h3>
-<p>are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices. Food, drinks and the closing party are on us!</p>
+    <div class="row-fluid">
+  <div class="registerleft span4 offset2">
+    <h3>Days 1 and 2</h3>
+    <p>are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices. Food, drinks and the closing party are on us!</p>
+  </div>
+  <div class="registerright span2 offset1">
+    <p>STUDENT TICKET<br/>
+    40€<br/>
+    (limited to 25)</p>
+    <p>HACKER TICKET<br/>
+    120€ (early bird)<br/>
+    190€ (late bird)<br/>
+    *reserved for freelancers, boostraped projects and startups with under 1M€ in funding</p>
+    <p>REGULAR TICKET<br/>
+    250€ (early bird)<br/>
+    490€ (late bird)</p>
+  </div>
+  <div class="span1">
+    <div class="registerbutton">
+      <p>Book<br/>
+      Your ticket<br/>
+      Now!</p>
+    </div>
+  </div>
 </div>
-<div class="registerright">
-<p>STUDENT TICKET<br/>
-40€<br/>
-(limited to 25)</p>
-<p>HACKER TICKET<br/>
-120€ (early bird)<br/>
-190€ (late bird)<br/>
-*reserved for freelancers, boostraped projects and startups with under 1M€ in funding</p>
-<p>REGULAR TICKET<br/>
-250€ (early bird)<br/>
-490€ (late bird)</p>
-</div>
-<div class="registerbutton">
-  <p>Book<br/>
-  Your ticket<br/>
-  Now!</p>
-</div>
-<div class="registerdown"><h3>Day 3</h3>
-<p>Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.</p>
+<div class="row-fluid">
+  <div class="registerdown span8 offset2">
+    <h3>Day 3</h3>
+    <p>Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.</p>
+  </div>
 </div>
   </section>
 
