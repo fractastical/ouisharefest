@@ -146,10 +146,8 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     background-size: cover;
 }
 .aboutframe {
-    margin:auto;
     font-size: 0.8em;
     height:500px;
-    width:900px;
     margin-top: 80px;
     background:rgba(255,255,255, 0.7);
 }
