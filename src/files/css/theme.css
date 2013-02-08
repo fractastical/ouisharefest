@@ -318,7 +318,7 @@ section.tab.fifth label{
   padding-top:100px;
   margin-right:200px;
   margin-left:150px;
-  height: 250% !important;
+  height: 300% !important;
 }
 .speaker-photo .photo {
   border-radius: 50%;
@@ -406,7 +406,7 @@ section.tab.fifth label{
 .sponsors{
   display:block;
   padding-top:100px;
-  height: 220% !important;
+  height: 300% !important;
   background-color: #e6e6ff;
 }
 .wrap{
