@@ -367,33 +367,24 @@ section.tab.fifth label{
 }
 .partnersframe{
     background:white;
-    display:block;
-    margin: auto;
-    margin-top:80px;
-    width: 800px;
-    height: 400px;
+    height: 500px;
 }
 .fonderie2{
-    display:block;
-    width:400px;
     height:171px;
-    margin: auto;
 }
-.logo{
-    margin-right:42.5px;
-    margin-left:42.5px;
-    display:inline-block;
-    width:150px;
-    height:104px;
+.fonderie2 img{
+    max-width:100%;
+}
+.logo img{
+    max-width:100%;
+    width:100%;
 }
 .shareable{
-    margin-left:90px;
 }
 .meshlabs{
-    margin-left:90px;
 }
 
-.partnerstext{margin-left:380px;margin-top:10px;font-size:1em;}
+.partnerstext{margin-top:10px;font-size:1em;}
 .contact{padding:10px 10px 10px 10px; border-radius:50px; background-color:yellow;}
 
 /* =============================================================================
@@ -520,17 +511,9 @@ section.tab.fifth label{
     font-size: 1.2em;
 }
 .registerleft{
-    display:block;
-    float:left;
-    width:400px;
-    margin-left:250px;
 }
 .registerright{
-    display:inline-block;
-    width:200px;
-    float:right;
     color: #666;
-    margin-right:500px;
     margin-top:50px;
 }
 .registerright p{
@@ -538,7 +521,6 @@ section.tab.fifth label{
     font-size: 1em;
 }
 .registerbutton{
-    margin-left:1100px;
     margin-top:340px;
     background-color: rgba(0,0,255,1);
     width: 200px;
@@ -551,14 +533,11 @@ section.tab.fifth label{
     color:white;
     text-transform:uppercase;
     text-align:center;
+    padding:20px;
 }
 
 .registerdown{
-    display:block;
-    float:left;
-    margin-left:250px;
     margin-top: -50px;
-    width: 800px;
 }
 
 /* =============================================================================
