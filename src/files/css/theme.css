@@ -119,7 +119,7 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
 }
 .presskittext{padding:20px;font-size:1.6em;color:rgba(0,0,255,1);}
 .wave{
-  margin-top:100px;
+  margin-top:50px;
 }
 .date{
     margin-top:20px;
@@ -130,6 +130,18 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
     font-size: 5em;
     line-height:1em;
     color: #b3b3ff;
+}
+.iframe-rwd  {
+position: relative;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 /* =============================================================================
    CONTENT
