@@ -1,17 +1,29 @@
 <!-- HEADER -->
 <header class="header">
   <div class="wrapper">
-    <div><p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
-    <span class="fonderie"><img src='img/fonderiesmall.jpg'></span></div>
-    <div class="presskit"><div class="presskittext"><a href=#>presskit</a></div></div>
-    <div class="wave"><img src='img/wave.png'/>
-    <div class="date">
-      <p>may
-        2-3-4
-        2013</p>
+    <div class="row-fluid">
+      <div class="span4 offset2">
+        <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
+        <span class="fonderie"><img src='img/fonderiesmall.jpg'></span>
+      </div>
+      <div class="presskit span2 offset3">
+        <div class="presskitshape">
+          <div class="presskittext"><a href=#>presskit</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
+    <div class="row-fluid">
+      <div class="wave span2 offset2"><img src='img/wave.png'/>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="date span2 offset2">
+        <p>may<br/>
+          2-3-4<br/>
+          2013</p>
+      </div>
+    </div>
 </header>
 <!--  / HEADER -->
 

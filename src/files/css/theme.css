@@ -104,15 +104,12 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
   background-size: 100% auto;
   height:100%;
 }
-.smallname{display:block;float:left;font-size:2em;margin-left:150px;}
+.smallname{font-size:2em;}
 .oui {font-family:blanchcondensed_light;}
 .share {font-family:blanchcondensed;}
-.fonderie{float:left;padding-top:-20px;margin-top:-20px;}
-.presskit{
-   float:right;
-   margin-right:150px;
+.fonderie{}
+.presskitshape{
    background:color:rgba(252,238,33,1);
-   margin-top:-60px;
    width: 150px;
    height: 80px;
    background: rgba(252,238,33,1);
@@ -120,20 +117,11 @@ nav {background: rgba(26,23,27,1);padding-left:25em;}
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
 }
-.presskittext{margin-top:25px;font-size:1.6em;color:rgba(0,0,255,1);}
+.presskittext{padding:20px;font-size:1.6em;color:rgba(0,0,255,1);}
 .wave{
-  display:block;
-  height:27px;
-  width:150px;
-  float:left;
-  margin-left:150px;
   margin-top:100px;
 }
 .date{
-    display:block;
-    width: 130px;
-    height:600px;
-    float:left;
     margin-top:20px;
     margin-left:20px;
 }
