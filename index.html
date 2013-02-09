@@ -88,7 +88,6 @@
 <hr>
     <!-- HEADER -->
 <header class="header">
-  <div class="wrapper">
     <div class="row-fluid">
       <div class="span4 offset1">
         <p><span class="smallname"><span class='oui'>oui</span><span class='share'>share</span> +</span>
@@ -112,7 +111,7 @@
           2013</p>
       </div>
       <div class="iframe-rwd span9">
-        <iframe src="http://ouisharefest.com/logo/"></iframe>
+        <iframe id="logointeractive" src="http://ouisharefest.com/logo/"></iframe>
       </div>
     </div>
 </header>
@@ -1069,7 +1068,7 @@ please contact us at <span class="contact">partners@ouishare.net</span></div>
   <script>
     ;(function($){
         $(function(){
-          $('#myIframeID').responsiveIframe({ xdomain: '*'});
+          $('#logointeractive').responsiveIframe();
         });
     })(jQuery);
   </script>
