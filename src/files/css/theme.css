@@ -159,8 +159,8 @@ display: block;
 }
 .aboutframe {
     font-size: 0.8em;
-    height:550px;
-    margin-top: 80px;
+    height:40em;
+    margin-top:8em;
     background:rgba(255,255,255, 0.7);
 }
 .aboutframe h3{
@@ -168,7 +168,7 @@ display: block;
     line-height:1.8em;
 }
 .abouttext{
-    padding: 30px;
+    padding:1.875em;
 }
 
 /* =============================================================================
