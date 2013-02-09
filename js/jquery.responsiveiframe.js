@@ -99,7 +99,7 @@ if (typeof jQuery !== 'undefined') {
 
 ;(function(){
   var self,
-      module, 
+      module,
       ResponsiveIframe = function () {self = this;};
 
   ResponsiveIframe.prototype.allowResponsiveEmbedding = function() {
