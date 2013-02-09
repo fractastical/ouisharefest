@@ -419,11 +419,7 @@ section.tab.fifth label{
   border-radius: 50%;
 }
 .sponsor-item {
-  display:block;
-  float:left;
   margin-bottom:20px;
-  height:200px;
-  width: 580px;
 }
 .sponsor-photo {
   display: inline-block;
