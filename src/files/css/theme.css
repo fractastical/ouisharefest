@@ -452,11 +452,6 @@ section.tab.fifth label{
 }
 .call{
     background-color:#5c2bdb;
-    width: 240px;
-    height: 140px;
-    -moz-border-radius: 100px / 50px;
-    -webkit-border-radius: 100px / 50px;
-    border-radius: 100px / 50px;
 }
 .call p{
     font-weight: bold;
