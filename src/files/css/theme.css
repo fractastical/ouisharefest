@@ -314,10 +314,7 @@ section.tab.fifth label{
    SPEAKER
    ========================================================================== */
 .speakers{
-  display:block;
   padding-top:100px;
-  margin-right:100px;
-  margin-left:150px;
   height: 300% !important;
 }
 .speaker-photo .photo {
@@ -329,10 +326,7 @@ section.tab.fifth label{
   transition: all 0.3s ease-out;
 }
 .speakers-item{
-    display:inline-block;
     height:150px;
-    width:150px;
-    margin:25px;
 }
 .speakers-name{
     margin-top:10px;
@@ -409,10 +403,6 @@ section.tab.fifth label{
   height: 300% !important;
   background-color: #e6e6ff;
 }
-.wrap{
-  margin-left:180px;
-  margin-right:100px;
- }
 .teamtextleft{
   font-size:0.8em;
   font-weight:bold;

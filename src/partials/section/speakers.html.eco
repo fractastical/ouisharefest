@@ -1,25 +1,27 @@
-<ul class="speakers-list">
-<% for speaker in @schedule: %>
-  <% if speaker.presentation: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if speaker.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-        </span>
-      <% end %>
+<div class="row-fluid">
+  <div class="span10 offset1">
+    <ul class="speakers-list">
+      <div class="row-fluid">
+        <% for speaker, index in @schedule: %>
+          <div class="span2">
+            <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+              <% if speaker.photo: %>
+                <span class="speaker-photo">
+                <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+                </span>
+            <% end %>
+           <h3 class="speakers-name"><%= speaker.name %></h3>
+          <span class="speakers-company"><p><%= speaker.company %></p></span>
+          </li>
+    </div>
+            <% if (index+1)%5 == 0: %>
+              </div>
+              <div class="row-fluid">
+             <% end %>
 
-<!--      <h3 class="speech-title">
-        <% if speaker.presentation.time: %>
-          <span class="speech-time"><%= speaker.presentation.time %></span>
-        <% end %>
-          <span> <%= speaker.presentation.title %></span>
-      </h3>-->
-
-      <h3 class="speakers-name"><%= speaker.name %></h3>
-      <span class="speakers-company"><p><%= speaker.company %></p></span>
-<!--      <p class="speakers-bio"><%= speaker.bio %></p>-->
-    </li>
-  <% end %>
 <% end %>
 </ul>
+</div>
 <div class="speakerstext">...and many more coming</div>
+</div>
+</div>

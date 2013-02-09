@@ -53,9 +53,6 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: "Check-in / Breakfast"
-      time: "9h00"
-    ,
       name: "Lisa Gansky"
       photo: "img/speakers/Speakers_Gansky_Lisa.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -141,9 +138,6 @@ module.exports =
         title: "Introducing Windows 12"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "11h00"
-    ,
-      name: "Lunch"
-      time: "12h00"
     ,
       name: "Massimo Menichinelli"
       photo: "img/speakers/Speakers_Menichinelli_Massimo.jpg"
@@ -254,8 +248,6 @@ module.exports =
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Coffee-break"
       time: "15h00"
     ,
       name: "Olivier Grémillon"
