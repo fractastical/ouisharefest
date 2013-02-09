@@ -63,7 +63,7 @@
   <script>
     ;(function($){
         $(function(){
-          $('#myIframeID').responsiveIframe({ xdomain: '*'});
+          $('#logointeractive').responsiveIframe();
         });
     })(jQuery);
   </script>
