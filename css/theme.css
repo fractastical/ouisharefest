@@ -80,20 +80,21 @@ body {font-family: Ubuntu;height:100%;}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: rgba(26,23,27,1);padding-left:25em;}
-.nav-link {color:#e7e7e7; padding: 60px 10px 10px 0;font-size:1.2em;}
+nav {background: rgba(26,23,27,1);}
+.navbar-inner{text-align:center;margin-left:8em;}
+.nav-link {color:#e7e7e7; padding:0.5em;font-size:1.2em;}
 .nav-link:active {color:rgba(252,238,33,1);}
 .nav-link:hover {color:rgba(252,238,33,1);}
 .nav-link:focus {color:rgba(252,238,33,1);}
 /*.nav-link:visited {color:rgba(252,238,33,1);}*/
 .nav-link .yellow {color:rgba(252,238,33,1);}
 .nav-link .current {color:rgba(252,238,33,1);}
-.facebook {margin-left:6em;}
-.facebook .facebook_icon{width:30px;height:30px;border-radius:50%;}
-.twitter {margin-left: -2em;}
-.twitter .twitter_icon{width:30px;height:30px;border-radius:50%;}
+.facebook {margin-left:8em;}
+.facebook .facebook_icon{width:1.55em;height:1.55em;border-radius:50%;}
+.twitter {margin-left: -1.5em;}
+.twitter .twitter_icon{width:1.55em;height:1.55em;border-radius:50%;}
 .blog{color:#b3b3ff;}
-.fr{color:#b3b3ff;padding-left:10px;}
+.fr{color:#b3b3ff;}
 /* =============================================================================
    HEADER
    ========================================================================== */
@@ -160,7 +161,7 @@ height: 100%;
 }
 .aboutframe {
     font-size: 0.8em;
-    height:500px;
+    height:550px;
     margin-top: 80px;
     background:rgba(255,255,255, 0.7);
 }
