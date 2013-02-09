@@ -316,32 +316,31 @@ section.tab.fifth label{
   padding-top:100px;
   height: 300% !important;
 }
-.speaker-photo .photo {
-  border-radius: 50%;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+.speakers-list{
+    margin-left:10em;
 }
 .speakers-item{
-    height:150px;
-    margin-bottom:20px;
+    height:12em;
+    margin-bottom:2em;
+    margin-left:2em;
+    width:12em;
+}
+.speaker-photo .photo {
+  display:block;
+  width: 8em;
+  height: 8em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         50%  50%  50%  50%  / 40%   20%   40%  20%;
 }
 .speakers-name{
-    margin-top:10px;
+    margin-top:1em;
+    font-size:1em;
 }
+.speakers-item p {font-size:1em;}
 .speakers-company{
     font-size:1em;
 }
-.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
-.speech-time {
-  color:#fff;
-  background:#2b2b2b;
-  border-radius: 8px;
-}
-.speakerstext{float: right;margin-top:-100px;font-size:1.6em;font-weight:bold;}
-
+.speakers-bio {display: none;}
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
@@ -374,7 +373,6 @@ section.tab.fifth label{
 }
 .partnersframe{
     background:white;
-    height: 400px;
 }
 .fonderie2{
     height:171px;
@@ -386,11 +384,6 @@ section.tab.fifth label{
     padding-top:20px;
     width:100%;
 }
-.shareable{
-}
-.meshlabs{
-}
-
 .partnerstext{margin-top:10px;font-size:1em;}
 .contact{padding:10px 10px 10px 10px; border-radius:50px; background-color:yellow;}
 

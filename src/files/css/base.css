@@ -62,33 +62,6 @@ nav {
 }
 
 /* =============================================================================
-   SPEAKER
-   ========================================================================== */
-.speakers-item {
-  float:left;
-  min-height:180px;
-  padding-left: 18px;
-  margin-bottom:3px;
-}
-.speaker-photo {
-  display: block;
-  width: 120px;
-  height: 120px;
-}
-.speech-title {
-  padding-top:10px;
-  font-size:2em;
-  margin-bottom:1em;
-}
-.speech-time {
-  font-size:18px;
-  padding: 10px 15px;
-  letter-spacing:-.03em;
-}
-.speakers-name{font-size:1em;}
-.speakers-item p {font-size:1em;}
-
-/* =============================================================================
    SCHEDULE
    ========================================================================== */
 .schedule-tbl {padding:20px;}
@@ -109,23 +82,11 @@ nav {
   font-size:2em;
   font-weight: bolder;
 }
-.schedule-tbl .speaker-photo {
-  position:relative;
-  width: 40px;
-  height: 40px;
-  float:left;
-  margin-right:20px;
-}
 .schedule-tbl .schedule-time {text-align:center;}
 .schedule-slot {
   width: 250px;
   font-size:16px;
 }
-.speakers-company {
-  display: block;
-  font-size:12px;
-}
-
 /* =============================================================================
    CONTATO
    ========================================================================== */
@@ -187,7 +148,7 @@ nav {
     padding: 10px;
     font-size:1.8em;
   }
-  .schedule-tbl .speaker-photo {
+  .schedule-tbl {
     width: 40px;
     height: 40px;
     margin-right:5px;
@@ -249,26 +210,6 @@ nav {
   .content {padding: 0;}
   .content section {padding-top: 50px;}
 
-  /* speakers */
-  .speakers-item {
-    min-height:70px;
-    padding-left: 70px;
-  }
-  .speaker-photo {
-    width: 50px;
-    height: 50px;
-  }
-  .speech-title {
-    padding-top:0;
-    font-size:16px;
-    margin-bottom:.3em;
-  }
-  .speech-time {
-    font-size:16px;
-    padding: 0;
-  }
-  .speakers-bio {display: none;}
-}
 
 @media only screen and (max-width : 321px) {
   .logo-name {
