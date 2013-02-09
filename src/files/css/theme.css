@@ -316,7 +316,7 @@ section.tab.fifth label{
 .speakers{
   display:block;
   padding-top:100px;
-  margin-right:200px;
+  margin-right:100px;
   margin-left:150px;
   height: 300% !important;
 }
@@ -411,26 +411,19 @@ section.tab.fifth label{
 }
 .wrap{
   margin-left:180px;
-  margin-right:180px;
+  margin-right:100px;
  }
 .teamtextleft{
   font-size:0.8em;
   font-weight:bold;
-  float:left;
   height:100px;
-  width:360px;
-  margin-left:180px;
   margin-bottom:50px;
 }
 .teamtextright{
   font-size:0.8em;
   font-weight:bold;
   height:100px;
-  width:360px;
-  float:right;
-  margin-right:180px;
   margin-bottom:50px;
-  margin-left:20px;
 }
 .sponsor-photo .photo {
   border-radius: 50%;

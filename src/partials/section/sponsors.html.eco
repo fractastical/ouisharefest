@@ -1,6 +1,6 @@
 <div class="wrap">
-    <div class="teamtextleft"><p>Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.</p></div>
-    <div class="teamtextright">
+    <div class="teamtextleft span4 offset 3"><p>Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.</p></div>
+    <div class="teamtextright span4 offset1">
     <p>We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.</br>
     Find out more about us on <a href="http://ouishare.net">OuiShare.net</a>.</div>
     <ul class="sponsors-list">
