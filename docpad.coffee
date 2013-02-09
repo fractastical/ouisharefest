@@ -424,7 +424,7 @@ module.exports =
       quote: "I want to make this Fest, the Fest of learning"
     ,
       name: "Tomas Mancin"
-      photo: "img/team/Teaim_Tomas.jpg"
+      photo: "img/team/Team_Tomas.jpg"
       twitter: "T_M_Arch"
       tags: "#CoTalk #Social #Alchemy"
       quote: "I want to see the sparkles in their eyes!"
