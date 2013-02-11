@@ -11,8 +11,25 @@ html {
    BASIC STYLES
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {color: rgba(26,23,27,1);}
-body {font-family: Ubuntu;height:100%;}
-.global{height:100%;}
+body {
+  font-family: Ubuntu;
+  height:100%;
+}
+.global{
+  height:100%;
+}
+a, a:hover, a:focus, a:active {text-decoration:none;}
+.wrapper {
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.content {height: 100%;}
+.content section {
+  height:100%;
+  display:block;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -25,7 +42,7 @@ nav {
 }
 .navbar-inner{
     text-align:center;
-    margin-left:8em;
+    margin-left:10%;
 }
 .nav-item {
   display: inline-block;
@@ -44,7 +61,7 @@ nav {
 .facebook {margin-left:8em;}
 .facebook .facebook_icon{width:1.55em;height:1.55em;border-radius:50%;}
 .twitter {margin-left: -1.5em;}
-.twitter .twitter_icon{width:1.55em;height:1.55em;border-radius:50%;}
+.twitter .twitter_icon{width:2em;height:1.55em;border-radius:50%;}
 .blog{color:#b3b3ff;}
 .fr{color:#b3b3ff;}
 /* =============================================================================
@@ -56,6 +73,7 @@ nav {
   background-position: center bottom;
   background-size: 100% auto;
   height:100%;
+  padding-top: 6.25em;
 }
 .logosmall{
     height: 5em;
@@ -99,22 +117,23 @@ display: block;
 }
 /* =============================================================================
    CONTENT
-   ========================================================================== */
+ _ ========================================================================== */
 .content a{color:rgba(26,23,27,1);}
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about{
-    background: url('../img/backgrounds/background-about.jpg') no-repeat center center fixed;
+    background: url('../img/backgrounds/background_about.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height:100%;
 }
 .aboutframe {
     font-size: 0.8em;
     height:40em;
-    margin-top:8em;
+    margin-top:10em;
     background:rgba(255,255,255, 0.7);
 }
 .aboutframe h3{
@@ -130,18 +149,24 @@ display: block;
    ========================================================================== */
 .topics {
    color:white;
+   height:100%;
+   display:block;
+   padding-bottom:10em;
 }
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-.carousel .slide .item {
+.carousel .carousel-inner .slide .item {
     height:100%;
+    max-height:100%
     width:100%;
+    margin-bottom:0;
 }
 .item img{
-    max-height:100%;
+    height:100%;
+    width:100%;
 }
 .carousel-caption{
     bottom:50%;
@@ -150,6 +175,15 @@ display: block;
 .carousel-caption p{
     line-height:2;
     font-weight:bold;
+}
+ol .carousel-indicator{
+    top:10%;
+}
+.carousel-indicator li{
+    background: rgba(0,0,255,1);
+}
+.carousel-indicator li .active{
+    background: rgba(252,238,33,1);
 }
 /* =============================================================================
    LOCATION
@@ -165,11 +199,8 @@ display: block;
    SPEAKER
    ========================================================================== */
 .speakers{
-  padding-top:100px;
+  padding-top:10em;
   height: 300% !important;
-}
-.speakers-list{
-    margin-left:10em;
 }
 .speakers-item{
     height:12em;
@@ -217,7 +248,7 @@ display: block;
    ========================================================================== */
 .partners{
     padding-top:10em;
-    background: url('../img/backgrounds/background-partners.jpg') no-repeat center center fixed;
+    background: url('../img/backgrounds/background_partners.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -250,14 +281,16 @@ display: block;
   padding-top:6em;
   height: 300% !important;
   background-color: #e6e6ff;
+  padding-left:5em;
 }
 .teamtextleft{
+  padding-left:15em;
   font-size:0.8em;
   font-weight:bold;
   margin-bottom:3em;
-  padding-left:5em;
 }
 .teamtextright{
+  padding-right:15em;
   font-size:0.8em;
   font-weight:bold;
   margin-bottom:3em;
@@ -296,7 +329,7 @@ display: block;
    ========================================================================== */
 .contribute{
     padding-top:10em;
-    background: url('../img/backgrounds/topic6.jpg') no-repeat center center fixed;
+    background: url('../img/backgrounds/topic6.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

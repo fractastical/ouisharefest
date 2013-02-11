@@ -1,13 +1,12 @@
-<div class="row-fluid">
-  <div class="span10 offset1">
-    <ul class="speakers-list">
+<div class="container">
+  <ul class="speakers-list">
       <div class="row-fluid">
         <% for speaker, index in @schedule: %>
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             <% if speaker.photo: %>
             <span class="speaker-photo">
-            <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+              <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
             </span>
             <% end %>
             <h3 class="speakers-name"><%= speaker.name %></h3>
@@ -21,5 +20,4 @@
       <% end %>
       </div>
     </ul>
-  </div>
 </div>

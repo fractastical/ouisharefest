@@ -1,30 +1,46 @@
 <div class="row-fluid">
   <div class="span10 offset1">
-    <div class="teamtextleft span4 offset1"><p>Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.</p></div>
-    <div class="teamtextright span4 offset1">
-      <p>We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.</br>
-      Find out more about us on <a href="http://ouishare.net">OuiShare.net</a>.</div>
+    <div class="row-fluid">
+      <div class="teamtextleft span6">
+        <p>
+          Ouishare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.
+        </p>
+      </div>
+      <div class="teamtextright span6">
+        <p>
+          We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.
+          </br>
+          Find out more about us on
+          <a href="http://ouishare.net">
+            OuiShare.net
+          </a>
+          .
+        </p>
+      </div>
+    </div>
     <ul class="sponsors-list">
       <div class="row-fluid">
         <% for sponsor, index in @sponsors: %>
-          <div class="span6">
-            <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
-              <div class="sponsor-photo">
-                <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-              </div>
-              <div class="sponsor-details">
-                <h3 class="sponsor-name"><%= sponsor.name %></h3>
-                <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@<%= sponsor.twitter %></p></span>
-                <span class="sponsor-tags"><p><%= sponsor.tags %></p></span>
-                <span class="sponsor-quote"><p><%= sponsor.quote %></p></span>
-              </div>
-            </li>
-          </div>
-          <% if (index+1)%2 == 0: %>
+        <div class="span6">
+          <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
+            <div class="sponsor-photo">
+              <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
             </div>
-            <div class="row-fluid">
-          <% end %>
-        <% end %>
+            <div class="sponsor-details">
+              <h3 class="sponsor-name">
+                <%= sponsor.name %>
+              </h3>
+              <span class="sponsor-twitter"><p><img src="img/twitter.png"/>@<%= sponsor.twitter %></p></span>
+              <span class="sponsor-tags"><p><%= sponsor.tags %></p></span>
+              <span class="sponsor-quote"><p><%= sponsor.quote %></p></span>
+            </div>
+          </li>
+        </div>
+        <% if (index+1)%2 == 0: %>
+      </div>
+      <div class="row-fluid">
+      <% end %>
+      <% end %>
       </div>
     </ul>
   </div>
