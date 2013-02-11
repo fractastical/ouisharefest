@@ -40,9 +40,15 @@ nav {
     width: 100%;
     z-index: 10;
 }
+.brand{
+    width: 10em;
+    margin-right:10em;
+}
+.brand img{
+    max-width:100%;
+}
 .navbar-inner{
     text-align:center;
-    margin-left:10%;
 }
 .nav-item {
   display: inline-block;
