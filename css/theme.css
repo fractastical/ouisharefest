@@ -1,0 +1,460 @@
+/* =============================================================================
+   MAIN LAYOUT
+   ========================================================================== */
+html {
+  background:#F6F6F6;
+  font:normal normal 10px/1.2em; Ubuntu, helvetica, arial, sans-serif;
+  color: rgba(26,23,27,1);
+  height:100%;
+}
+/* =============================================================================
+   BASIC STYLES
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {color: rgba(26,23,27,1);}
+body {
+  font-family: Ubuntu;
+  height:100%;
+}
+.global{
+  height:100%;
+}
+a, a:hover, a:focus, a:active {text-decoration:none;}
+.wrapper {
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.content {height: 100%;}
+.content section {
+  height:100%;
+  display:block;
+}
+/* =============================================================================
+   NAVIGATION
+   ========================================================================== */
+nav {
+    background: rgba(26,23,27,1);
+    padding:0.6em 0 0.4em 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.navbar-inner{
+    text-align:center;
+    margin-left:10%;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-link {
+    color:#e7e7e7;
+    padding:0em 0.5em;
+    font-size:1em;
+}
+.nav-link:active {color:rgba(252,238,33,1);}
+.nav-link:hover {color:rgba(252,238,33,1);}
+.nav-link:focus {color:rgba(252,238,33,1);}
+/*.nav-link:visited {color:rgba(252,238,33,1);}*/
+.nav-link .yellow {color:rgba(252,238,33,1);}
+.nav-link .current {color:rgba(252,238,33,1);}
+.facebook {margin-left:8em;}
+.facebook .facebook_icon{width:1.55em;height:1.55em;border-radius:50%;}
+.twitter {margin-left: -1.5em;}
+.twitter .twitter_icon{width:2em;height:1.55em;border-radius:50%;}
+.blog{color:#b3b3ff;}
+.fr{color:#b3b3ff;}
+/* =============================================================================
+   HEADER
+   ========================================================================== */
+.header {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  height:100%;
+  padding-top: 6.25em;
+}
+.logosmall{
+    height: 5em;
+    width:20em;
+}
+.logosmall img{
+    max-width:100%;
+}
+.presskitshape{
+   background:color:rgba(252,238,33,1);
+   width: 7em;
+   height: 4em;
+   background: rgba(252,238,33,1);
+   -moz-border-radius: 100px / 50px;
+   -webkit-border-radius: 100px / 50px;
+   border-radius: 100px / 50px;
+}
+.presskittext{
+   padding:1em;
+   font-size:1.2em;
+   color:rgba(0,0,255,1);
+}
+.wave{
+  margin-top:5em;
+  height:20em;
+  width: 10em;
+}
+.wave img{
+    max-width:100%;
+}
+.iframe-rwd  {
+overflow: hidden;
+}
+iframe {
+width: 100%;
+height: 100%;
+overflow: hidden;
+padding: 0px;
+margin: 0px; border: medium none;
+display: block;
+}
+/* =============================================================================
+   CONTENT
+ _ ========================================================================== */
+.content a{color:rgba(26,23,27,1);}
+/* =============================================================================
+   ABOUT
+   ========================================================================== */
+.about{
+    background: url('../img/backgrounds/background_about.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+}
+.aboutframe {
+    font-size: 0.8em;
+    height:40em;
+    margin-top:10em;
+    background:rgba(255,255,255, 0.7);
+}
+.aboutframe h3{
+    font-size:2em;
+    line-height:1.8em;
+}
+.abouttext{
+    padding:1.875em;
+}
+
+/* =============================================================================
+   TOPICS
+   ========================================================================== */
+.topics {
+   color:white;
+   height:100%;
+   display:block;
+   padding-bottom:10em;
+}
+.topics h3{
+  color:white;
+  font-weight:bold;
+  line-height:1.3em;
+}
+.carousel .carousel-inner .slide .item {
+    height:100%;
+    max-height:100%
+    width:100%;
+    margin-bottom:0;
+}
+.item img{
+    height:100%;
+    width:100%;
+}
+.carousel-caption{
+    bottom:50%;
+    background: rgba(166,166,255,0.65)
+}
+.carousel-caption p{
+    line-height:2;
+    font-weight:bold;
+}
+ol .carousel-indicator{
+    top:10%;
+}
+.carousel-indicator li{
+    background: rgba(0,0,255,1);
+}
+.carousel-indicator li .active{
+    background: rgba(252,238,33,1);
+}
+/* =============================================================================
+   LOCATION
+   ========================================================================== */
+.location-area {
+  background: #e7e7e7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 300px;
+}
+
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speakers{
+  padding-top:10em;
+  height: 300% !important;
+}
+.speakers-item{
+    height:12em;
+    margin-bottom:2em;
+    margin-left:2em;
+    width:12em;
+}
+.speaker-photo .photo {
+  display:block;
+  width: 8em;
+  height: 8em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         50%  50%  50%  50%  / 40%   20%   40%  20%;
+}
+.speakers-name{
+    margin-top:1em;
+    font-size:1em;
+}
+.speakers-item p {font-size:1em;}
+.speakers-company{
+    font-size:1em;
+}
+.speakers-bio {display: none;}
+/* =============================================================================
+   SCHEDULE
+   ========================================================================== */
+.schedule-tbl {
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.15);
+}
+.schedule-tbl table {background:#fff;}
+.schedule-tbl td, .schedule-tbl th {border-bottom:1px solid #e7e7e7;}
+.schedule-tbl tbody tr:nth-child(2n+1) {background:#f6f6f6;}
+.schedule-tbl th {color:#2b2b2b;}
+.schedule-tbl .speaker-photo .photo {box-shadow: 0 0 0 1px rgba(0,0,0,.3);}
+.speakers-company {color:#999;}
+.schedule-slot {color:#2b2b2b;}
+.schedule-tbl tbody tr:hover {background:#fffde1;}
+.schedule-coffee, .schedule-closing, .schedule-lunch, .schedule-other {color:#214f87;}
+
+/* =============================================================================
+   PARTNERS
+   ========================================================================== */
+.partners{
+    padding-top:10em;
+    background: url('../img/backgrounds/background_partners.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.partnersframe{
+    background:white;
+}
+.fonderie2{
+    height:171px;
+}
+.fonderie2 img{
+    max-width:100%;
+}
+.logo img{
+    padding:1em 3em;
+    width:60%;
+}
+.partnerstext p{
+  margin-top:1em;
+  font-size:1.3em;
+}
+.contact{padding:0.5em; border-radius:20% 40% 20% 40%; background-color:rgba(252,238,33,1);}
+
+/* =============================================================================
+   SPONSORS/TEAM
+   ========================================================================== */
+.sponsors{
+  display:block;
+  padding-top:6em;
+  height: 300% !important;
+  background-color: #e6e6ff;
+  padding-left:5em;
+}
+.teamtextleft{
+  padding-left:15em;
+  font-size:0.8em;
+  font-weight:bold;
+  margin-bottom:3em;
+}
+.teamtextright{
+  padding-right:15em;
+  font-size:0.8em;
+  font-weight:bold;
+  margin-bottom:3em;
+}
+.sponsor-photo .photo {
+  display:block;
+  width: 8em;
+  height: 8em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         50%  50%  50%  50%  / 50%   15%   25%  25%;
+}
+.sponsor-item {
+  margin-bottom:2em;
+}
+.sponsor-photo {
+  display: inline-block;
+  float:left;
+  margin-right:1em;
+  width: 10em;
+  height: 10em;
+}
+.sponsor-details{
+ }
+.sponsor-name{font-size:1.6em;}
+.sponsor-item p {line-height:1em; font-size:1em;}
+.sponsor-twitter{color:#a6a6ff;}
+.sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
+.sponsor-tags{font-size:1.2em;color:#0000ff;}
+.sponsors p {font-size:1em;}
+.credits p{font-size:0.8em;color:#0000ff;}
+.credits h2{font-size:1.5em;color:#a6a6ff;}
+.credits h3{font-size:0.8em;color:#a6a6ff;}
+
+/* =============================================================================
+   CONTRIBUTE
+   ========================================================================== */
+.contribute{
+    padding-top:10em;
+    background: url('../img/backgrounds/topic6.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.call{
+    background-color:#5c2bdb;
+}
+.call p{
+    font-weight: bold;
+    text-transform:uppercase;
+    color:white;
+    font-size:1.2em;
+    padding-left:1em;
+    padding-top:1em;
+}
+.post {
+  display:block;
+  width: 16em;
+  height: 7em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         70%  50%  70%  50%  / 60%   70%   90%  90%;
+}
+.host{
+  display:block;
+  width: 16em;
+  height: 8em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:        60%  20%  20%  30%  / 30%   50%   50%  50%;
+  margin-top:-2em;
+  margin-left:5em;
+}
+.host p{
+    margin-left:1em;
+}
+.volunteer{
+  display:block;
+  width: 13em;
+  height: 7em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         50%  90%  90%  50%  / 60%   99%   70%  60%;
+  margin-top: -4em;
+}
+.become {
+  display:block;
+  width: 15em;
+  height: 8em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         40%  50%  50%  99%  / 80%   50%   50%  70%;
+  margin-top: -2em;
+  margin-left:-3em;
+}
+.become p{
+    margin-left:1em;
+}
+.sponsor{
+    margin-left:1em;
+}
+/* =============================================================================
+   REGISTER
+   ========================================================================== */
+.register{background-color:rgba(252,238,33,1);padding-top:95px;}
+.register h3 {
+    font-size:2em;
+    line-height:1.8em;
+}
+.register p {
+    font-size: 1.2em;
+}
+.registerright{
+    color: #666;
+    margin-top:50px;
+}
+.registerright p{
+    line-height: 1.2em;
+    font-size: 1em;
+}
+.registerbutton{
+    margin-top:340px;
+    background-color: rgba(0,0,255,1);
+    width: 200px;
+    height: 140px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+.registerbutton p{
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    padding:20px;
+}
+
+.registerdown{
+    margin-top: -50px;
+}
+/* =============================================================================
+   CONTACT
+   ========================================================================== */
+.form input[type=text], .form input[type=email], .form textarea{
+  color:#777;
+  border:1px solid #e7e7e7;
+  background:#fff;
+  border-radius:4px;
+}
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus {border-color:#aaa;outline:0;}
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width : 1024px) {
+  .header {
+    background-size: auto 100%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  /* speakers */
+  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
+  .speech-title {font-weight: bolder;}
+  .speech-time {
+    color:#2b2b2b;
+    background: transparent;
+    font-weight: bolder;
+  }
+  .github-link { display: none; }
+}
