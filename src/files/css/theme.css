@@ -129,130 +129,28 @@ display: block;
    TOPICS
    ========================================================================== */
 .topics {
-   padding-top: -100px;
    color:white;
-  -webkit-transition: all .4s linear;
-  -moz-transition: all .4s linear;
-  -o-transition: all .4s linear;
-  -ms-transition: all .4s linear;
-  transition: all .4s linear;
 }
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-.topic1{
-    background: url('../img/backgrounds/topic1.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.carousel .slide .item {
+    height:100%;
+    width:100%;
 }
-.topic2{
-    background: url('../img/backgrounds/topic2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.item img{
+    max-height:100%;
 }
-.topic3{
-    background: url('../img/backgrounds/topic3.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.carousel-caption{
+    bottom:50%;
+    background: rgba(166,166,255,0.65)
 }
-.topic4{
-    background: url('../img/backgrounds/topic4.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.carousel-caption p{
+    line-height:2;
+    font-weight:bold;
 }
-.topic5{
-    background: url('../img/backgrounds/topic5.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.tab-switcher {
-  height:100%;
-  position: relative;
-}
-.tab{
-    float:left;
-}
-.tab-switcher label{
-    z-index: 2;
-    padding: 8px;
-    position:absolute;
-    top:65%;
-    background: rgba(0,0,255,1);
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    transition: all .4s linear;
-}
-section.tab.first label{
-    right: 820px;
-}
-section.tab.second label{
-    right: 795px;
-}
-section.tab.third label{
-    right: 770px;
-}
-section.tab.fourth label{
-    right: 745px;
-}
-section.tab.fifth label{
-    right: 720px;
-}
-.tab-switcher label:hover {
-  cursor: pointer;
-}
-.tab-content {
-  position:absolute;
-  width: 100%;
-  height:100%;
-  -webkit-transition: all .4s linear;
-  -moz-transition: all .4s linear;
-  -o-transition: all .4s linear;
-  -ms-transition: all .4s linear;
-  transition: all .4s linear;
-}
-.topicframe{
-  margin: auto;
-  margin-top:200px;
-  width: 600px;
-  height:300px;
-  background: rgba(166,166,255,0.6);
-  padding: 20px;
-  -webkit-transition: all .4s linear;
-  -moz-transition: all .4s linear;
-  -o-transition: all .4s linear;
-  -ms-transition: all .4s linear;
-  transition: all .4s linear;
-}
-
-.tab-switcher input[type=radio] {
-  display: none;
-}
-
-.tab-switcher input[type=radio]:checked ~ .tab-content {
-  z-index: 1;
-}
-.tab-switcher input[type=radio]:checked ~ label {
-  z-index: 2;
-  background: rgba(252,238,33,1);
-}
-
 /* =============================================================================
    LOCATION
    ========================================================================== */
