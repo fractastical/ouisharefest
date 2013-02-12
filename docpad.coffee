@@ -5,7 +5,7 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Ouishare Fest"
+      name: "OuiShare Fest : a three-day festival about the collaborative economy"
       description: " "
       date: "may 2-3-4 2013"
       price: " "
