@@ -19,7 +19,7 @@
           <img src='img/wave.jpg'/>
         </div>
       </div>
-      <div class="iframe-rwd span9">
+      <div class="iframe-rwd span8">
         <iframe id="logointeractive" src="http://ouisharefest.com/logo/"></iframe>
       </div>
     </div>
