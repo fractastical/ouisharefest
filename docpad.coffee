@@ -85,7 +85,7 @@ module.exports =
       name: "Bernard Stiegler"
       photo: "img/speakers/stiegler.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: ""
+      company: "Ars Industrialis"
       twitter: "linus"
       presentation:
         title: "Digging into a Linux Kernel"
@@ -105,7 +105,7 @@ module.exports =
       name: "François Taddei"
       photo: "img/speakers/Speakers_Taddei_Francois.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Center for Research and Interdisciplinarity"
+      company: "CRI"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -273,7 +273,7 @@ module.exports =
       name: "Jay Cousins"
       photo: "img/speakers/cousins.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: " "
+      company: "Open Design City "
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -293,7 +293,7 @@ module.exports =
       name: "Clément Alteresco"
       photo: "img/speakers/alteresco.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Bureaux à Partager"
+      company: "Share Your Office"
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -354,10 +354,10 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Eric Van Der Broek"
+      name: "Eric van der Broek"
       photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Mutinerie"
+      company: "Mutinerie Coworking"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -371,6 +371,15 @@ module.exports =
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
+      name: "Jacques-François Marchandise"
+      photo: "img/speakers/marchandise.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Mutinerie Coworking"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ]
 
     # List of Sponsors
@@ -379,7 +388,7 @@ module.exports =
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
       tags: "#Coordination #Community"
-      quote: "I want to make this Fest a truly collaborative experience."
+      quote: "OuiShare Fest is not only about collaboration, it is collaborative."
     ,
       name: "Benjamin Tincq"
       photo: "img/team/Team_Ben.jpg"
@@ -402,7 +411,7 @@ module.exports =
       name: "Cristobal Gracia"
       photo: "img/team/Team_Cristo.jpg"
       twitter: "CristobGarcia"
-      tags: "#Experience #Play #Program #Community"
+      tags: "#Experience #Program #Community"
       quote: "Let's play hard the collaborative game. It's gonna be AWESOME."
     ,
       name: "Elf Pavlik"
@@ -429,6 +438,12 @@ module.exports =
       tags: "#CoTalk #Social #Alchemy"
       quote: "I want to see the sparkles in their eyes!"
     ,
+      name: "Maxime Lathuilière"
+      photo: "img/team/maxime.jpg"
+      twitter: "Maxlath"
+      tags: "#Design #Communication"
+      quote: "Your task is not to foresee the future, but to enable it” (Antoine de Saint-Exupéry)"
+    ,
       name: "Jean-Baptiste Roger"
       photo: "img/team/Team_JB_Roger.jpg"
       twitter: "jbroger"
@@ -440,12 +455,6 @@ module.exports =
       twitter: "KaSaraGold"
       tags: "#Fonderie #IdF #Communication"
       quote: "Together, we are stronger ! Let’s listen to the echo of the 'co'..."
-    ,
-      name: "Maria Nadejde"
-      photo: "img/team/Team_Maria.jpg"
-      twitter: "..."
-      tags: "#Fonderie #IdF #International"
-      quote: "..."
     ]
 
     # List of Partners

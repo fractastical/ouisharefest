@@ -22,38 +22,55 @@
   </div>
 </div>
 <div class="row-fluid">
+  <div class="span2 offset2">
+    <div class="call codesign">
+      <a href="http://bit.ly/OuiShareFestCall">
+        <p>
+          Help us
+          <br/>
+          co-design the program
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row-fluid">
   <div class="span2 offset5">
     <div class="host call">
-      <p>
-        Host
-        <br/>
-        a satellite event
-      </p>
+      <a href="mailto:contribute@ouisharefest.com?subject=Satellite Event for OuiShare Fest">
+        <p>
+          Host
+          <br/>
+          a satellite event
+        </p>
+      </a>
     </div>
   </div>
 </div>
 <div class="row-fluid">
   <div class="span2 offset3">
     <div class="volunteer call">
-      <p>
-        Volunteer
-        <br/>
-        For the d-day
-      </p>
+      <a href="http://bit.ly/OuiShareFestCall">
+        <p>
+          Volunteer
+          <br/>
+          For the d-day
+        </p>
+      </a>
     </div>
   </div>
 </div>
 <div class="row-fluid">
   <div class="span2 offset7">
     <div class="become call">
-      <a href="mailto:partners@ouisharefest.com">
-      <p>
-        Become
-        <br/>
-        <span class="sponsor">
-        a sponsor
-        </span>
-      </p>
+      <a href="mailto:contribute@ouisharefest.com?subject=OuiShare Fest Partnership">
+        <p>
+          Become
+          <br/>
+          <span class="sponsor">
+          a sponsor
+          </span>
+        </p>
       </a>
     </div>
   </div>

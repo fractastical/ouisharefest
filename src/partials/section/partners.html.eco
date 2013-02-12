@@ -37,7 +37,9 @@
         <br/>
         please contact us at
         <span class="contact">
-          partners@ouishare.net
+          <a href="mailto:contribute@ouishare.net">
+            contribute@ouishare.net
+          </a>
         </span>
       </p>
     </div>

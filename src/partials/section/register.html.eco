@@ -32,7 +32,16 @@
       490€ (late bird)
     </p>
   </div>
-  <div class="span1">
+<div class="row-fluid">
+  <div class="registerdown span4 offset2">
+    <h3>
+      Day 3
+    </h3>
+    <p>
+      Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.
+    </p>
+  </div>
+  <div class="span1 offset1">
     <div class="registerbutton">
       <p>
         Book
@@ -42,15 +51,5 @@
         Now!
       </p>
     </div>
-  </div>
-</div>
-<div class="row-fluid">
-  <div class="registerdown span8 offset2">
-    <h3>
-      Day 3
-    </h3>
-    <p>
-      Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.
-    </p>
   </div>
 </div>
