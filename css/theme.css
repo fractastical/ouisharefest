@@ -40,9 +40,15 @@ nav {
     width: 100%;
     z-index: 10;
 }
+.brand{
+    width: 10em;
+    margin-right:10em;
+}
+.brand img{
+    max-width:100%;
+}
 .navbar-inner{
     text-align:center;
-    margin-left:10%;
 }
 .nav-item {
   display: inline-block;
@@ -139,6 +145,7 @@ display: block;
 }
 .aboutframe h3{
     font-size:2em;
+    font-weight:bold;
     line-height:1.8em;
 }
 .abouttext{
@@ -206,11 +213,11 @@ ol .carousel-indicator{
 .speakers-item{
     height:12em;
     margin-bottom:2em;
-    margin-left:2em;
     width:12em;
 }
 .speaker-photo .photo {
   display:block;
+  margin: auto;
   width: 8em;
   height: 8em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
@@ -219,8 +226,12 @@ ol .carousel-indicator{
 .speakers-name{
     margin-top:1em;
     font-size:1em;
+    text-align:center;
 }
-.speakers-item p {font-size:1em;}
+.speakers-item p {
+    font-size:1em;
+    text-align:center;
+}
 .speakers-company{
     font-size:1em;
 }
@@ -284,15 +295,9 @@ ol .carousel-indicator{
   background-color: #e6e6ff;
   padding-left:5em;
 }
-.teamtextleft{
-  padding-left:15em;
-  font-size:0.8em;
-  font-weight:bold;
-  margin-bottom:3em;
-}
-.teamtextright{
-  padding-right:15em;
-  font-size:0.8em;
+.teamtext{
+  padding-left:10em;
+  font-size:1em;
   font-weight:bold;
   margin-bottom:3em;
 }
@@ -315,11 +320,11 @@ ol .carousel-indicator{
 }
 .sponsor-details{
  }
-.sponsor-name{font-size:1.6em;}
+.sponsor-name{font-size:1.4em;font-weight:bold;}
 .sponsor-item p {line-height:1em; font-size:1em;}
 .sponsor-twitter{color:#a6a6ff;}
 .sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
-.sponsor-tags{font-size:1.2em;color:#0000ff;}
+.sponsor-tags{font-size:1.1em;color:#a6a6ff;}
 .sponsors p {font-size:1em;}
 .credits p{font-size:0.8em;color:#0000ff;}
 .credits h2{font-size:1.5em;color:#a6a6ff;}
@@ -336,6 +341,9 @@ ol .carousel-indicator{
     -o-background-size: cover;
     background-size: cover;;
 }
+.contribute h3{
+    font-weight:bold;
+}
 .call{
     background-color:#5c2bdb;
 }
@@ -350,6 +358,13 @@ ol .carousel-indicator{
 .post {
   display:block;
   width: 16em;
+  height: 7em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius:         70%  50%  70%  50%  / 60%   70%   90%  90%;
+}
+.codesign{
+  display:block;
+  width: 18em;
   height: 7em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius:         70%  50%  70%  50%  / 60%   70%   90%  90%;
@@ -409,8 +424,8 @@ ol .carousel-indicator{
     font-size: 1em;
 }
 .registerbutton{
-    margin-top:340px;
     background-color: rgba(0,0,255,1);
+    margin-top:2em;
     width: 200px;
     height: 140px;
     -moz-border-radius: 100px / 50px;
@@ -422,10 +437,6 @@ ol .carousel-indicator{
     text-transform:uppercase;
     text-align:center;
     padding:20px;
-}
-
-.registerdown{
-    margin-top: -50px;
 }
 /* =============================================================================
    CONTACT
