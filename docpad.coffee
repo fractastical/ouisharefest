@@ -375,7 +375,7 @@ module.exports =
       name: "Jacques-François Marchandise"
       photo: "img/speakers/marchandise.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Mutinerie Coworking"
+      company: "Fing"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
