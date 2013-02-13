@@ -10,7 +10,7 @@
   <div class="carousel-inner">
     <div class="active item">
       <img src='img/backgrounds/topic1.gif' alt=""/>
-      <div class="carousel-caption span8 offset3">
+      <div class="carousel-caption">
         <h3>
           The Collaborative Economy in Europe is gaining momentum.
         </h3>
@@ -21,7 +21,7 @@
     </div>
     <div class="item">
       <img src='img/backgrounds/topic2.gif' alt=""/>
-      <div class="carousel-caption span8 offset3">
+      <div class="carousel-caption">
         <h3>
           Collaborative Consumption
         </h3>
@@ -32,7 +32,7 @@
     </div>
     <div class="item">
       <img src='img/backgrounds/topic3.gif' alt=""/>
-      <div class="carousel-caption span8 offset3">
+      <div class="carousel-caption">
         <h3>
           Makers and Peer Production
         </h3>
@@ -43,7 +43,7 @@
     </div>
     <div class="item">
       <img src='img/backgrounds/topic4.gif' alt=""/>
-      <div class="carousel-caption span8 offset3">
+      <div class="carousel-caption">
         <h3>
           Peer-to-Peer Finance
         </h3>
@@ -54,7 +54,7 @@
     </div>
     <div class="item">
       <img src='img/backgrounds/topic3.gif' alt=""/>
-      <div class="carousel-caption span8 offset3">
+      <div class="carousel-caption">
         <h3>
           Open Knowledge
         </h3>

@@ -58,6 +58,9 @@ nav {
     padding:0em 0.5em;
     font-size:1em;
 }
+.nav-link.contribute-nav, .nav-link.register-nav{
+    color:rgba(252,238,33,1);
+}
 .nav-link:active {color:rgba(252,238,33,1);}
 .nav-link:hover {color:rgba(252,238,33,1);}
 .nav-link:focus {color:rgba(252,238,33,1);}
@@ -81,6 +84,14 @@ nav {
   height:100%;
   padding-top: 6.25em;
 }
+.hider{
+    background: rgba(26,23,27,1);
+    position:absolute;
+    top:0;
+    height:2.92em;
+    width:35em;
+    z-index:10000000;
+}¬
 .logosmall{
     height: 5em;
     width:20em;
@@ -141,7 +152,7 @@ display: block;
     font-size: 0.8em;
     height:40em;
     margin-top:10em;
-    background:rgba(255,255,255, 0.7);
+    background:rgba(255,255,255, 0.8);
 }
 .aboutframe h3{
     font-size:2em;
@@ -168,7 +179,7 @@ display: block;
 }
 .carousel .carousel-inner .slide .item {
     height:100%;
-    max-height:100%
+    max-height:100%;
     width:100%;
     margin-bottom:0;
 }
@@ -177,8 +188,12 @@ display: block;
     width:100%;
 }
 .carousel-caption{
-    bottom:50%;
-    background: rgba(166,166,255,0.65)
+    height:30%;
+    width:60%;
+    top:50%;
+    margin: 0 auto;
+    background: rgba(166,166,255,0.65);
+    margin-top:-15%;
 }
 .carousel-caption p{
     line-height:2;

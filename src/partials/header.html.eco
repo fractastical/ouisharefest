@@ -1,5 +1,7 @@
 <!-- HEADER -->
 <header class="header">
+<div class="hider">
+</div>
     <div class="row-fluid">
       <div class="span4 offset1">
         <div class="logosmall">
