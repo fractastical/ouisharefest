@@ -202,13 +202,18 @@ display: block;
 .carousel-control{
     background-color:#fff;
 }
-ol .carousel-indicator{
-    top:10%;
+.carousel-indicators{
+    top:60px;
+    right:60px;
 }
-.carousel-indicator li{
+.carousel-indicators li{
     background: rgba(0,0,255,1);
+    border-radius: 50% 50% 50% 50%;
+    margin-left:10px;
+    width:20px;
+    height:20px;
 }
-.carousel-indicator li .active{
+.carousel-indicators .active{
     background: rgba(252,238,33,1);
 }
 /* =============================================================================
