@@ -231,7 +231,7 @@ display: block;
    ========================================================================== */
 .speakers{
   padding-top:10em;
-  height: 300% !important;
+  height: 250% !important;
 }
 .speaker-container{
     padding-left:10%;
@@ -316,7 +316,7 @@ display: block;
    ========================================================================== */
 .sponsors{
   display:block;
-  height: 300% !important;
+  height: 250% !important;
   background-color: #e6e6ff;
 }
 .team-container{
