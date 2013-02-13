@@ -2,29 +2,43 @@
   <div class="partnersframe span6 offset3">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
-        <img src="img/fonderie.jpg"/>
+        <a href="http://www.lafonderie-idf.fr/">
+          <img src="img/fonderie.jpg"/>
+        </a>
       </div>
     </div>
     <div class="row-fluid">
       <div class="shareable logo span4">
-        <img src="img/shareable.svg"/>
+        <a href="http://www.shareable.net/">
+          <img src="img/shareable.svg"/>
+        </a>
       </div>
       <div class="cc logo span4">
-        <img src="img/cc.svg"/>
+        <a href="http://collaborativeconsumption.com/">
+          <img src="img/cc.svg"/>
+        </a>
       </div>
       <div class="p2p logo span4">
-        <img src="img/p2p.svg"/>
+        <a href="http://p2pfoundation.net/">
+          <img src="img/p2p.svg"/>
+        </a>
       </div>
     </div>
     <div class="row-fuid">
       <div class="meshlabs logo span4">
-        <img src="img/meshlabs.svg"/>
+        <a href="http://meshing.it/companies/59759-Mesh-Labs">
+          <img src="img/meshlabs.svg"/>
+        </a>
       </div>
       <div class="deskmag logo span4">
-        <img src="img/deskmag.svg"/>
+        <a href="http://www.deskmag.com/fr">
+          <img src="img/deskmag.svg"/>
+        </a>
       </div>
       <div class="fing logo span4">
-        <img src="img/fing.svg">
+        <a href="http://fing.org/">
+          <img src="img/fing.svg">
+        </a>
       </div>
     </div>
   </div>
