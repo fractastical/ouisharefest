@@ -8,20 +8,20 @@
           <a class="brand" href="#"><img src="img/black.jpg"></a>
         <% for section in @sections : %>
         <li class="nav-item">
-          <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link <%= section %>-nav"><%= @labels[section] %></a>
+          <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link hide <%= section %>-nav"><%= @labels[section] %></a>
         </li>
         <% end %>
         <li class="nav-item">
-          <a href="https://www.facebook.com/ouishare" class="facebook nav-link"><img src='img/facebook_icon.png'class='facebook_icon'/></a>
+          <a href="https://www.facebook.com/ouishare" class="facebook nav-link hide"><img src='img/transparent.png'class='facebook_icon'/></a>
         </li>
         <li class="nav-item">
-          <a href="https://www.twitter.com/ouisharefest" class="twitter nav-link"><img src='img/twitter_icon.png' class='twitter_icon'></a>
+          <a href="https://www.twitter.com/ouisharefest" class="twitter hide nav-link"><img src='img/transparent.png' class='twitter_icon'></a>
         </li>
         <li class="nav-item">
-          <a href="http://blog.ouisharefest.com" class="blog nav-link">blog</a>
+          <a href="http://blog.ouisharefest.com" class="blog hide nav-link">blog</a>
         </li>
-        <li class="nav-item pull-right">
-          <a href="https://www.twitter.com/ouishare" class="fr nav-link">FR</a>
+        <li class="nav-item pull-right hide">
+          <a href="https://www.twitter.com/ouishare" class="fr hide nav-link">FR</a>
         </li>
       </ul>
     </div>
