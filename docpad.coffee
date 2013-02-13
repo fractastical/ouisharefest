@@ -28,11 +28,11 @@ module.exports =
     sections: [
       'about'
       'topics'
-      #'location'
       'speakers'
       #'schedule'
       'partners'
       'sponsors'
+      'location'
       'contribute'
       'register'
       #'contact'
