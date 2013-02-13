@@ -85,22 +85,10 @@ nav {
   height:100%;
   padding-top: 6.25em;
 }
-.hider{
-    background: rgba(26,23,27,1);
-    position:absolute;
-    top:0;
-    width:100%;
-    z-index:10000000;
-}
 .hidernav{
+    z-index:10000000;
     position:absolute;
     top:0;
-}
-.hidernav .brand{
-    display:inline-block;
-}
-.hidernav .brand img{
-    display:none;
 }
 .logosmall{
     height: 5em;

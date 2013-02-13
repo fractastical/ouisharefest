@@ -5,7 +5,7 @@
     <div class="navbar-inner">
       <ul class="wrapper nav">
         <li class="nav-item">
-          <a class="brand" href="#"><img src="img/logo.svg"></a>
+          <a class="brand" href="#"><img src="img/black.jpg"></a>
         <% for section in @sections : %>
         <li class="nav-item">
           <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link <%= section %>-nav"><%= @labels[section] %></a>
