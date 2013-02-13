@@ -90,7 +90,7 @@ nav {
     position:absolute;
     top:0;
     height:2.92em;
-    width:35em;
+    width:32%;
     z-index:10000000;
 }¬
 .logosmall{
@@ -148,24 +148,21 @@ display: block;
     -o-background-size: cover;
     background-size: cover;
     height:100%;
+    position:relative;
 }
 .aboutframe {
-    font-size: 0.8em;
-    position: absolute;
-    height:70%;
-    top:50%;
-    margin-top:-15%;
+    margin:20% 0;
     background:rgba(255,255,255, 0.8);
+    padding:2em;
 }
 .aboutframe h3{
-    font-size:2em;
+    font-size:1.8em;
     font-weight:bold;
-    line-height:1.8em;
+    line-height:1.4em;
 }
-.abouttext{
-    padding:1.875em;
+.aboutframe p{
+    font-size: 1.2em;
 }
-
 /* =============================================================================
    TOPICS
    ========================================================================== */
@@ -333,13 +330,12 @@ display: block;
 }
 .sponsor-photo .photo {
   display:block;
-  width: 8em;
-  height: 8em;
-  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-  border-radius:         50%  50%  50%  50%  / 50%   15%   25%  25%;
+  width: 10em;
+  height: 10em;
+  border-radius:50% 50% 50% 50%;
 }
 .sponsor-item {
-  margin-bottom:2em;
+  margin-bottom:4em;
 }
 .sponsor-photo {
   display: inline-block;

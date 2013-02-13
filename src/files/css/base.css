@@ -98,7 +98,6 @@ p {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .about {margin: 0;}
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
@@ -142,18 +141,6 @@ p {
   /* nav */
   nav {display: none;}
   .header {padding:20px 0;}
-  .logo-name {font-size: 4em;}
-  .tagline {
-    margin-bottom:15px;
-    font-size: 1.4em;
-  }
-  .call-action-area .price {
-    font-size:2em;
-    margin: 0 0 15px;
-    display: block;
-  }
-  .call-action-area .call-action-link, .btn {top:0;}
-
   h2, h3, h4 {font-size: 3em;}
   h3 {font-size: 2em;}
   h4 {font-size:1.8em;}
@@ -161,7 +148,6 @@ p {
 
   /* content */
   .content {padding: 0;}
-  .content section {padding-top: 50px;}
 
 
 @media only screen and (max-width : 321px) {
