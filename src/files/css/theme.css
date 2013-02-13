@@ -363,7 +363,14 @@ display: block;
 .sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
 .sponsor-tags{font-size:1.1em;color:#a6a6ff;}
 .sponsors p {font-size:1em;}
-.credits p{font-size:0.8em;color:#0000ff;}
+.credits{
+  margin-top:4em;
+  padding-left:10em;
+}
+.credits p{
+  font-size:1em;
+  color:#0000ff;
+}
 .credits h2{font-size:1.5em;color:#a6a6ff;}
 .credits h3{font-size:0.8em;color:#a6a6ff;}
 
