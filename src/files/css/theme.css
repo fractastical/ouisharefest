@@ -443,8 +443,8 @@ display: block;
 }
 .registerright{
     color: #666;
-    margin-top:50px;
     height:300px;
+    margin-bottom:4em;
 }
 .registerright p{
     line-height: 1.2em;
@@ -452,7 +452,6 @@ display: block;
 }
 .registerbutton{
     background-color: rgba(0,0,255,1);
-    margin-top:2em;
     width: 200px;
     height: 140px;
     -moz-border-radius: 100px / 50px;

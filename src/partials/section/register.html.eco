@@ -1,21 +1,21 @@
 <div class="row-fluid">
-  <div class="registerleft span4 offset2">
-    <h3>
-      Days 1 and 2
-    </h3>
-    <p>
-      are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices. Food, drinks and the closing party are on us!
-    </p>
-  </div>
-  <div class="registerright span2 offset1">
+  <div class="registerright span12">
     <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="550" height="450" scrolling="auto" frameborder="0"></iframe>
   </div>
 <div class="row-fluid">
-  <div class="registerdown span4 offset2">
-    <h3>
-      Day 3
-    </h3>
+  <div class="registerleft span4 offset1">
     <p>
+      <strong>
+      Days 1 and 2
+      </strong>
+      are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices. Food, drinks and the closing party are on us!
+    </p>
+  </div>
+  <div class="registerdown span4">
+    <p>
+      <strong>
+      Day 3
+      </strong>
       Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.
     </p>
   </div>
