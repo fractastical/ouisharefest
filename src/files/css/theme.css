@@ -361,7 +361,7 @@ display: block;
    CONTRIBUTE
    ========================================================================== */
 .contribute{
-    padding-top:10em;
+    padding-top:8em;
     background: url('../img/backgrounds/topic6.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -402,7 +402,7 @@ display: block;
   height: 8em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius:        60%  20%  20%  30%  / 30%   50%   50%  50%;
-  margin-top:-2em;
+  margin-top:-6em;
   margin-left:5em;
 }
 .host p{
