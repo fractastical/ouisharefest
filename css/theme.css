@@ -58,6 +58,9 @@ nav {
     padding:0em 0.5em;
     font-size:1em;
 }
+.nav-link.contribute-nav, .nav-link.register-nav{
+    color:rgba(252,238,33,1);
+}
 .nav-link:active {color:rgba(252,238,33,1);}
 .nav-link:hover {color:rgba(252,238,33,1);}
 .nav-link:focus {color:rgba(252,238,33,1);}
@@ -81,6 +84,14 @@ nav {
   height:100%;
   padding-top: 6.25em;
 }
+.hider{
+    background: rgba(26,23,27,1);
+    position:absolute;
+    top:0;
+    height:2.92em;
+    width:35em;
+    z-index:10000000;
+}¬
 .logosmall{
     height: 5em;
     width:20em;
@@ -141,7 +152,7 @@ display: block;
     font-size: 0.8em;
     height:40em;
     margin-top:10em;
-    background:rgba(255,255,255, 0.7);
+    background:rgba(255,255,255, 0.8);
 }
 .aboutframe h3{
     font-size:2em;
@@ -168,7 +179,7 @@ display: block;
 }
 .carousel .carousel-inner .slide .item {
     height:100%;
-    max-height:100%
+    max-height:100%;
     width:100%;
     margin-bottom:0;
 }
@@ -177,20 +188,32 @@ display: block;
     width:100%;
 }
 .carousel-caption{
-    bottom:50%;
-    background: rgba(166,166,255,0.65)
+    height:30%;
+    width:60%;
+    top:50%;
+    margin: 0 auto;
+    background: rgba(166,166,255,0.65);
+    margin-top:-15%;
 }
 .carousel-caption p{
     line-height:2;
     font-weight:bold;
 }
-ol .carousel-indicator{
-    top:10%;
+.carousel-control{
+    background-color:#fff;
 }
-.carousel-indicator li{
+.carousel-indicators{
+    top:60px;
+    right:60px;
+}
+.carousel-indicators li{
     background: rgba(0,0,255,1);
+    border-radius: 50% 50% 50% 50%;
+    margin-left:10px;
+    width:20px;
+    height:20px;
 }
-.carousel-indicator li .active{
+.carousel-indicators .active{
     background: rgba(252,238,33,1);
 }
 /* =============================================================================
@@ -210,30 +233,33 @@ ol .carousel-indicator{
   padding-top:10em;
   height: 300% !important;
 }
+.speaker-container{
+    padding-left:10%;
+}
 .speakers-item{
     height:12em;
-    margin-bottom:2em;
-    width:12em;
+    margin-bottom:4em;
 }
 .speaker-photo .photo {
   display:block;
   margin: auto;
-  width: 8em;
-  height: 8em;
-  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-  border-radius:         50%  50%  50%  50%  / 40%   20%   40%  20%;
+  width: 10em;
+  height: 10em;
+  border-radius:50% 50% 50% 50%;
 }
 .speakers-name{
     margin-top:1em;
-    font-size:1em;
+    font-size:0.8em;
     text-align:center;
+    text-transform:uppercase;
 }
 .speakers-item p {
     font-size:1em;
     text-align:center;
 }
 .speakers-company{
-    font-size:1em;
+    font-size:0.8em;
+    text-transform:uppercase;
 }
 .speakers-bio {display: none;}
 /* =============================================================================
@@ -290,10 +316,11 @@ ol .carousel-indicator{
    ========================================================================== */
 .sponsors{
   display:block;
-  padding-top:6em;
   height: 300% !important;
   background-color: #e6e6ff;
-  padding-left:5em;
+}
+.team-container{
+    padding:5% 15%;
 }
 .teamtext{
   padding-left:10em;
@@ -334,7 +361,7 @@ ol .carousel-indicator{
    CONTRIBUTE
    ========================================================================== */
 .contribute{
-    padding-top:10em;
+    padding-top:8em;
     background: url('../img/backgrounds/topic6.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -375,7 +402,7 @@ ol .carousel-indicator{
   height: 8em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius:        60%  20%  20%  30%  / 30%   50%   50%  50%;
-  margin-top:-2em;
+  margin-top:-6em;
   margin-left:5em;
 }
 .host p{
@@ -418,6 +445,7 @@ ol .carousel-indicator{
 .registerright{
     color: #666;
     margin-top:50px;
+    height:300px;
 }
 .registerright p{
     line-height: 1.2em;
