@@ -89,10 +89,19 @@ nav {
     background: rgba(26,23,27,1);
     position:absolute;
     top:0;
-    height:2.92em;
-    width:32%;
+    width:100%;
     z-index:10000000;
-}¬
+}
+.hidernav{
+    position:absolute;
+    top:0;
+}
+.hidernav .brand{
+    display:inline-block;
+}
+.hidernav .brand img{
+    display:none;
+}
 .logosmall{
     height: 5em;
     width:20em;
