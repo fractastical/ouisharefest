@@ -199,6 +199,9 @@ display: block;
     line-height:2;
     font-weight:bold;
 }
+.carousel-control{
+    background-color:#fff;
+}
 ol .carousel-indicator{
     top:10%;
 }
