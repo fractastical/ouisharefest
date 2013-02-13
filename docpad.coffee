@@ -387,7 +387,7 @@ module.exports =
       name: "Flore Berlingen"
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
-      tags: "#Coordination #Community"
+      tags: "#Coordination"
       quote: "OuiShare Fest is not only about collaboration, it is collaborative."
     ,
       name: "Benjamin Tincq"
@@ -406,13 +406,13 @@ module.exports =
       photo: "img/team/Team_Francesca.jpg"
       twitter: "Francesca_sp"
       tags: "#Communication #PR #Program"
-      quote: "I'm looking forward to bring together all the mover's and shakers in the European collaborative economy!"
+      quote: "I can't wait to bring together all the mover's and shakers in the European collaborative economy!"
     ,
       name: "Cristobal Gracia"
       photo: "img/team/Team_Cristo.jpg"
       twitter: "CristobGarcia"
       tags: "#Experience #Program #Community"
-      quote: "Let's play hard the collaborative game. It's gonna be AWESOME."
+      quote: "Let's play the collaborative game. It's gonna be AWESOME."
     ,
       name: "Elf Pavlik"
       photo: "img/team/Team_Elf.jpg"

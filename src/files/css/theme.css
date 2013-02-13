@@ -316,10 +316,11 @@ display: block;
    ========================================================================== */
 .sponsors{
   display:block;
-  padding-top:6em;
   height: 300% !important;
   background-color: #e6e6ff;
-  padding-left:5em;
+}
+.team-container{
+    padding:15%;
 }
 .teamtext{
   padding-left:10em;
