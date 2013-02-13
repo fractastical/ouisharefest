@@ -233,10 +233,12 @@ display: block;
   padding-top:10em;
   height: 300% !important;
 }
+.speaker-container{
+    padding-left:10%;
+}
 .speakers-item{
     height:12em;
     margin-bottom:2em;
-    width:12em;
 }
 .speaker-photo .photo {
   display:block;
@@ -248,8 +250,9 @@ display: block;
 }
 .speakers-name{
     margin-top:1em;
-    font-size:1em;
+    font-size:0.8em;
     text-align:center;
+    text-transform:uppercase;
 }
 .speakers-item p {
     font-size:1em;
