@@ -445,6 +445,7 @@ display: block;
 .registerright{
     color: #666;
     margin-top:50px;
+    height:300px;
 }
 .registerright p{
     line-height: 1.2em;

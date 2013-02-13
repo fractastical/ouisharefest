@@ -8,29 +8,7 @@
     </p>
   </div>
   <div class="registerright span2 offset1">
-    <p>
-      STUDENT TICKET
-      <br/>
-      40€
-      <br/>
-      (limited to 25)
-    </p>
-    <p>
-      HACKER TICKET
-      <br/>
-      120€ (early bird)
-      <br/>
-      190€ (late bird)
-      <br/>
-      *reserved for freelancers, boostraped projects and startups with under 1M€ in funding
-    </p>
-    <p>
-      REGULAR TICKET
-      <br/>
-      250€ (early bird)
-      <br/>
-      490€ (late bird)
-    </p>
+    <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="550" height="450" scrolling="auto" frameborder="0"></iframe>
   </div>
 <div class="row-fluid">
   <div class="registerdown span4 offset2">
