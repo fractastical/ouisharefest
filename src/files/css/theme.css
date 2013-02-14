@@ -109,17 +109,6 @@ nav {
   height:100%;
   padding-top: 6.25em;
 }
-.hidernav{
-    position:absolute;
-    top:0;
-    background:transparent;
-}
-.hide.nav-link{
-    color: transparent;
-}
-.hidernav.nav-item.brand{
-    z-index:10000000;
-}
 .logosmall{
     height: 5em;
     width:15em;

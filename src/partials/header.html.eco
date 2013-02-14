@@ -1,32 +1,5 @@
 <!-- HEADER -->
 <header class="header">
-<!--<div class="navbar">
-  <nav id="nav" class="hidernav">
-    <div class="navbar-inner">
-      <ul class="wrapper nav">
-        <li class="nav-item">
-          <a class="brand" href="#"><img src="img/black.jpg"></a>
-        <% for section in @sections : %>
-        <li class="nav-item">
-          <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link hide <%= section %>-nav"><%= @labels[section] %></a>
-        </li>
-        <% end %>
-        <li class="nav-item">
-          <a href="https://www.facebook.com/ouishare" class="facebook nav-link hide"><img src='img/transparent.png'class='facebook_icon'/></a>
-        </li>
-        <li class="nav-item">
-          <a href="https://www.twitter.com/ouisharefest" class="twitter hide nav-link"><img src='img/transparent.png' class='twitter_icon'></a>
-        </li>
-        <li class="nav-item">
-          <a href="http://blog.ouisharefest.com" class="blog hide nav-link">blog</a>
-        </li>
-        <li class="nav-item pull-right hide">
-          <a href="https://www.twitter.com/ouishare" class="fr hide nav-link">FR</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>-->
     <div class="row-fluid">
       <div class="span4 offset1">
         <div class="logosmall">
