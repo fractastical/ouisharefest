@@ -36,3 +36,8 @@
   </IfModule>
 
 </IfModule>
+# ----------------------------------------------------------------------
+# http://www.456bereastreet.com/archive/201103/x-ua-compatible_and_html5/
+# ----------------------------------------------------------------------
+
+Header set X-UA-Compatible "IE=edge"
