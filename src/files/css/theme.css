@@ -49,6 +49,9 @@ a, a:hover, a:focus, a:active {text-decoration:none;}
   position:relative;
   display:block;
 }
+ul{
+    list-style-type:none;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
