@@ -1,4 +1,4 @@
-<div class="container speaker-container">
+<div class="container-fluid speaker-container">
   <ul class="speakers-list">
       <div class="row-fluid">
         <% for speaker, index in @schedule: %>
