@@ -176,7 +176,7 @@ display: block;
    ABOUT
    ========================================================================== */
 .about{
-    background: url('../img/backgrounds/background_about.png') no-repeat center center fixed;
+    background: url('../img/backgrounds/background_about.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -340,7 +340,7 @@ display: block;
    ========================================================================== */
 .partners{
     padding-top:10em;
-    background: url('../img/backgrounds/background_partners.png') no-repeat center center fixed;
+    background: url('../img/backgrounds/background_partners.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -512,8 +512,11 @@ display: block;
     font-size: 1.2em;
 }
 .registerright{
-    height:365px;
+    height:375px;
     margin-bottom:4em;
+}
+.registerright{
+    overflow:hidden;
 }
 /* =============================================================================
    CONTACT
