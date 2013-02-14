@@ -17,7 +17,7 @@ module.exports =
     # Site info
     site:
       url: "http://ouisharefest.net"
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-37109643-1"
       images:
         cover: " "
         facebook: " "
