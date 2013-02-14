@@ -10,9 +10,6 @@
 					linkTarget = $this.attr('href'),
 					offSetTop;
 
-				// If not start with #, stop here!
-				if (linkTarget[0] !== '#') {
-					return false;
 				}
 
 				event.preventDefault();
