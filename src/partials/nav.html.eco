@@ -13,12 +13,12 @@
         <% end %>
         <li class="nav-item">
           <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
-            <img src='img/facebook_icon.png' class='facebook_icon' alt="facebook">
+            <img src='img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
           </a>
         </li>
         <li class="nav-item">
           <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
-            <img src='img/twitter_icon.png' class='twitter_icon' alt="twitter">
+            <img src='img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
           </a>
         </li>
         <li class="nav-item">

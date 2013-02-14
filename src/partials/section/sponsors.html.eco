@@ -32,7 +32,7 @@
                 </span>
                 <br/>
                 <span class="sponsor-twitter">
-                  <img src="img/twitter.png" alt="twitter"/>
+                  <img src="img/twitter.jpg" alt="twitter"/>
                   @
                   <%= sponsor.twitter %>
                 </span>
