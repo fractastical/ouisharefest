@@ -7,7 +7,9 @@
       <p>
         Cabaret Sauvage, Paris
       </p>
-      <img src="img/cabaret.jpg"/>
+      <div class="cabaret">
+        <img src="img/cabaret.jpg"/>
+      </div>
     </div>
   </div>
 </div>
