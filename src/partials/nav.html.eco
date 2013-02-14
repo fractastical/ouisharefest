@@ -4,7 +4,7 @@
     <div class="navbar-inner">
       <ul class="wrapper nav">
         <li class="nav-item">
-          <a class="brand" href="#"><img src="img/logo.svg"></a>
+          <a class="brand" href="#"><img src="img/logo.svg" alt="OuiShareFest"></a>
         </li>
         <% for section in @sections : %>
         <li class="nav-item">
@@ -13,12 +13,12 @@
         <% end %>
         <li class="nav-item">
           <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
-            <img src='img/facebook_icon.png'class='facebook_icon'/>
+            <img src='img/facebook_icon.png' class='facebook_icon' alt="facebook">
           </a>
         </li>
         <li class="nav-item">
           <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
-            <img src='img/twitter_icon.png' class='twitter_icon'>
+            <img src='img/twitter_icon.png' class='twitter_icon' alt="twitter">
           </a>
         </li>
         <li class="nav-item">

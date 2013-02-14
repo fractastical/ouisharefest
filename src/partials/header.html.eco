@@ -3,7 +3,7 @@
     <div class="row-fluid">
       <div class="span4 offset1">
         <div class="logosmall">
-          <img src='img/logosmall.jpg'>
+          <img src='img/logosmall.jpg' alt="OuiShare + La Fonderie">
         </div>
       </div>
       <div class="presskit span2 offset4">
@@ -16,7 +16,7 @@
     <div class="row-fluid">
       <div class="span2 offset1">
         <div class="wave">
-          <img src='img/wave.jpg'/>
+          <img src='img/wave.jpg' alt="2-3-4 may">
         </div>
       </div>
       <div class="iframe-rwd span8">
