@@ -7,7 +7,7 @@
           We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.
           </br>
           Find out more about us on
-          <a href="http://ouishare.net">
+          <a href="http://ouishare.net" target="_blank">
             OuiShare.net
           </a>
           .
@@ -60,7 +60,7 @@
         <div class="span8 offset2">
           <p>
             Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
-            <a href="httpl://www.g-u-i.net">g-u-i.net</a>
+            <a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
           </p>
         </div>
       </div>
@@ -71,7 +71,7 @@
         <div class="span8 offset2">
           <p>
             Alban Leveau-Vallier,
-            <a href="http://nukomeet.com">Nukomeet</a>
+            <a href="http://nukomeet.com" target="_blank">Nukomeet</a>
           </p>
         </div>
       </div>

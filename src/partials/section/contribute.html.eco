@@ -11,7 +11,7 @@
 <div class="row-fluid">
   <div class="span2 offset5">
     <div class="call post">
-      <a href="http://wallwisher.com/wall/OuiShareFest">
+      <a href="http://wallwisher.com/wall/OuiShareFest" target="_blank">
         <p>
           Post an idea
           <br/>
@@ -24,7 +24,7 @@
 <div class="row-fluid">
   <div class="span2 offset3">
     <div class="call codesign">
-      <a href="http://bit.ly/OuiShareFestCall">
+      <a href="http://bit.ly/OuiShareFestCall" target="_blank">
         <p>
           Help us
           <br/>
@@ -50,7 +50,7 @@
 <div class="row-fluid">
   <div class="span2 offset5">
     <div class="volunteer call">
-      <a href="http://bit.ly/OuiShareFestCall">
+      <a href="http://bit.ly/OuiShareFestCall" target="_blank">
         <p>
           Volunteer
           <br/>
