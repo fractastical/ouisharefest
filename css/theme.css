@@ -232,7 +232,8 @@ display: block;
 }
 .carousel-control{
     background-color:#fff;
-    margin-top: 10px;
+    margin-top: -20px;
+    top:50%;
 }
 .carousel-indicators{
     top:60px;
@@ -258,7 +259,11 @@ display: block;
     font-weight:bold;
     line-height:0.4em;
 }
-.location img {
+.cabaret{
+    width:800px;
+    height:500px;
+}
+.cabaret img {
    max-width: 100%;
 }
 /* =============================================================================
