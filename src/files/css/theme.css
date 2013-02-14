@@ -272,13 +272,14 @@ display: block;
 .speaker-photo .photo {
   display:block;
   margin: auto;
-  width: 10em;
-  height: 10em;
+  width: 140px;
+  height: 140px;
   border-radius:50% 50% 50% 50%;
 }
 .speaker-photo img{
-    width:100%;
-    height:100%;
+    width: 140px;
+    height: 140px;
+    max-width:100%;
 }
 .speakers-name{
     margin-top:1em;
