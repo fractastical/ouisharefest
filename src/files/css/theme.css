@@ -10,6 +10,24 @@ html {
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
+h2, h3, h4 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-bottom:.4em;
+  letter-spacing: -.02em;
+}
+h3 {font-size: 2em;}
+h4 {font-size:3em;}
+p {
+  font-size:1.6em;
+  line-height:1.6em;
+  margin-bottom: 1.4em;
+}
+.photo {
+  max-width:100%;
+  position:relative;
+  top:-1px;
+}
 h1, h2, h3, h4, h5, h6 {color: rgba(26,23,27,1);}
 body {
   font-family: Ubuntu;
