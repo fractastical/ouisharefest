@@ -328,7 +328,7 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
       name: "Jean-Baptiste Roger"
-      photo: "img/speakers/Speakers_Roger.jpg"
+      photo: "img/speakers/roger.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Fonderie"
       twitter: "woz"
@@ -445,7 +445,7 @@ module.exports =
       quote: "Your task is not to foresee the future, but to enable it” (Antoine de Saint-Exupéry)"
     ,
       name: "Jean-Baptiste Roger"
-      photo: "img/team/Team_JB_Roger.jpg"
+      photo: "img/speakers/roger.jpg"
       twitter: "jbroger"
       tags: "#Fonderie #IdF #Director"
       quote: "Changing the world needs not only fresh ideas, but also new methods."
