@@ -154,7 +154,7 @@ display: block;
     position:relative;
 }
 .aboutframe {
-    margin:10em 0;
+    margin:100px 0;
     background:rgba(255,255,255, 0.8);
     padding:2em;
 }
@@ -191,12 +191,12 @@ display: block;
     width:100%;
 }
 .carousel-caption{
-    height:30%;
+    height:350px;
     width:60%;
     top:50%;
     margin: 0 auto;
     background: rgba(166,166,255,0.65);
-    margin-top:-15%;
+    margin-top:-175px;
 }
 .carousel-caption p{
     line-height:2;
@@ -204,6 +204,7 @@ display: block;
 }
 .carousel-control{
     background-color:#fff;
+    margin-top: 10px;
 }
 .carousel-indicators{
     top:60px;
