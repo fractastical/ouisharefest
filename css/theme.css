@@ -10,6 +10,24 @@ html {
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
+h2, h3, h4 {
+  font-size: 5em;
+  font-weight: normal;
+  margin-bottom:.4em;
+  letter-spacing: -.02em;
+}
+h3 {font-size: 2em;}
+h4 {font-size:3em;}
+p {
+  font-size:1.6em;
+  line-height:1.6em;
+  margin-bottom: 1.4em;
+}
+.photo {
+  max-width:100%;
+  position:relative;
+  top:-1px;
+}
 h1, h2, h3, h4, h5, h6 {color: rgba(26,23,27,1);}
 body {
   font-family: Ubuntu;
@@ -154,9 +172,10 @@ display: block;
     position:relative;
 }
 .aboutframe {
-    margin:100px 0;
+    margin-top:12em;
     background:rgba(255,255,255, 0.8);
     padding:2em;
+    max-height:50%;
 }
 .aboutframe h3{
     font-size:1.8em;
@@ -509,6 +528,23 @@ display: block;
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width : 1370px) {
+   .aboutframe{
+    margin-top:5em;
+    padding:1em;
+    max-height:50%;
+  }
+  .aboutframe h3{
+    font-size:1.6em;
+    font-weight:bold;
+    line-height:1.2em;
+  }
+  .aboutframe p{
+    font-size: 1em;
+    margin-top:20px;
+  }
+}
+
 @media only screen and (max-width : 1024px) {
   .header {
     background-size: auto 100%;
@@ -526,6 +562,9 @@ display: block;
   .twitter{
       margin-left:1.2em;
   }
+  .aboutframe{
+      margin-top:10px;
+  }
   .sponsors{
       height: 280% !important;
   }
@@ -534,6 +573,7 @@ display: block;
   }
   .registerbutton{
       display:none;
+  }
 }
 @media only screen and (max-width : 480px) {
   /* speakers */
