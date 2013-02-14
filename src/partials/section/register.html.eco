@@ -1,6 +1,6 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
-    <iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=30219&amp;code=38902&amp;cas=1" width="650" height="600" scrolling="auto" frameborder="0"></iframe>
+    <iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=30219&amp;code=38902&amp;cas=1" width="650" height="600"></iframe>
   </div>
 </div>
 <div class="row-fluid">
@@ -26,15 +26,4 @@
       Will be free and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand.
     </p>
   </div>
-<!--  <div class="span1 offset1">
-      <div class="registerbutton">
-      <p>
-        Book
-        <br/>
-        Your ticket
-        <br/>
-        Now!
-      </p>
-      </div>
-      </div> -->
 </div>
