@@ -154,7 +154,7 @@ display: block;
     position:relative;
 }
 .aboutframe {
-    margin:20% 0;
+    margin:10em 0;
     background:rgba(255,255,255, 0.8);
     padding:2em;
 }
@@ -237,7 +237,7 @@ display: block;
    ========================================================================== */
 .speakers{
   padding-top:10em;
-  height: 250% !important;
+  height: 270% !important;
 }
 .speaker-container{
     padding-left:10%;
@@ -326,7 +326,7 @@ display: block;
    ========================================================================== */
 .sponsors{
   display:block;
-  height: 250% !important;
+  height: 270% !important;
   background-color: #e6e6ff;
 }
 .team-container{
@@ -509,6 +509,27 @@ display: block;
   .header {
     background-size: auto 100%;
   }
+  .nav-link{
+      font-size:0.8em;
+      padding:0 0.2em;
+  }
+  .brand{
+      margin-right:4em;
+  }
+  .facebook{
+      margin-left:4em;
+  }
+  .twitter{
+      margin-left:1.2em;
+  }
+  .sponsors{
+      height: 280% !important;
+  }
+  .volunteer{
+      margin-top: -2em;
+  }
+  .registerbutton{
+      display:none;
 }
 @media only screen and (max-width : 480px) {
   /* speakers */
