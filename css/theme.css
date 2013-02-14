@@ -49,6 +49,12 @@ a, a:hover, a:focus, a:active {text-decoration:none;}
   position:relative;
   display:block;
 }
+.container-fluid{
+    padding:0;
+}
+ul{
+    list-style-type:none;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -253,7 +259,7 @@ display: block;
     line-height:0.4em;
 }
 .location img {
-    width: 100%;
+   max-width: 100%;
 }
 /* =============================================================================
    SPEAKER
@@ -491,7 +497,7 @@ display: block;
 }
 .registerright{
     color: #666;
-    height:350px;
+    height:365px;
     margin-bottom:4em;
 }
 .registerright p{
