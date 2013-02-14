@@ -109,17 +109,6 @@ nav {
   height:100%;
   padding-top: 6.25em;
 }
-.hidernav{
-    position:absolute;
-    top:0;
-    background:transparent;
-}
-.hide.nav-link{
-    color: transparent;
-}
-.hidernav.nav-item.brand{
-    z-index:10000000;
-}
 .logosmall{
     height: 5em;
     width:15em;
@@ -223,7 +212,7 @@ display: block;
     width:60%;
     top:50%;
     margin: 0 auto;
-    background: rgba(166,166,255,0.65);
+    background: rgba(166,166,255,0.85);
     margin-top:-175px;
 }
 .carousel-caption p{
@@ -501,27 +490,8 @@ display: block;
     font-size: 1.2em;
 }
 .registerright{
-    color: #666;
     height:365px;
     margin-bottom:4em;
-}
-.registerright p{
-    line-height: 1.2em;
-    font-size: 1em;
-}
-.registerbutton{
-    background-color: rgba(0,0,255,1);
-    width: 200px;
-    height: 140px;
-    -moz-border-radius: 100px / 50px;
-    -webkit-border-radius: 100px / 50px;
-    border-radius: 100px / 50px;
-}
-.registerbutton p{
-    color:white;
-    text-transform:uppercase;
-    text-align:center;
-    padding:20px;
 }
 /* =============================================================================
    CONTACT
@@ -540,7 +510,8 @@ display: block;
    ========================================================================== */
 
 @media only screen and (max-width : 1370px) {
-   .aboutframe{
+
+   .aboutframe {
     margin-top:5em;
     padding:1em;
     max-height:50%;
@@ -553,6 +524,30 @@ display: block;
   .aboutframe p{
     font-size: 1em;
     margin-top:20px;
+  }
+  .sponsors{
+      height: 280% !important;
+  }
+  .partners{
+      padding-top: 4em;
+  }
+  .cabaret{
+      width: 500px;
+  }
+  .contribute{
+      padding-top:2em;
+  }
+  .post{
+      margin-top:-2em;
+  }
+  .host{
+      margin-top:-8em;
+  }
+  .become{
+      margin-top:-4em;
+  }
+  .registerright{
+      margin-bottom:1em;
   }
 }
 
@@ -575,9 +570,6 @@ display: block;
   }
   .aboutframe{
       margin-top:10px;
-  }
-  .sponsors{
-      height: 280% !important;
   }
   .volunteer{
       margin-top: -2em;
