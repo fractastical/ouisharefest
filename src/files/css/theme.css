@@ -232,7 +232,8 @@ display: block;
 }
 .carousel-control{
     background-color:#fff;
-    margin-top: 10px;
+    margin-top: -20px;
+    top:50%;
 }
 .carousel-indicators{
     top:60px;
