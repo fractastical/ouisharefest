@@ -52,26 +52,28 @@
       <% end %>
       </div>
     </ul>
-    <div class="row-fluid credits">
-          <div class="span2">
-            <h2>Design</h2>
-          </div>
-          <div class="span8 offset2">
-            <p>
-              Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
-              <a href="httpl://www.g-u-i.net">g-u-i.net</a>
-            </p>
+    <div class="credits">
+      <div class="row-fluid">
+        <div class="span2">
+          <h2>Design</h2>
+        </div>
+        <div class="span8 offset2">
+          <p>
+            Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
+            <a href="httpl://www.g-u-i.net">g-u-i.net</a>
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="row-fluid credits">
-          <div class="span2">
-            <h2>Development</h2>
-          </div>
-          <div class="span8 offset2">
-            <p>
-              Alban Leveau-Vallier,
-              <a href="http://nukomeet.com">Nukomeet</a>
-            </p>
+      <div class="row-fluid">
+        <div class="span2">
+          <h2>Development</h2>
+        </div>
+        <div class="span8 offset2">
+          <p>
+            Alban Leveau-Vallier,
+            <a href="http://nukomeet.com">Nukomeet</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
