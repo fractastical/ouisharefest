@@ -1,6 +1,6 @@
 <div class="row-fluid">
-  <div class="registerright span12">
-    <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="550" height="450" scrolling="auto" frameborder="0"></iframe>
+  <div class="registerright span8 offset2">
+    <iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=30219&amp;code=38902&amp;cas=1" width="650" height="600" scrolling="auto" frameborder="0"></iframe>
   </div>
 <div class="row-fluid">
   <div class="registerleft span4 offset2">
@@ -8,7 +8,13 @@
       <strong>
       Days 1 and 2
       </strong>
-      are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. To make this conference affordable to everyone, we offer three different ticket prices. Food, drinks and the closing party are on us!
+      are for professionals seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited. Food, drinks and the closing party are on us!
+      <br/>
+      We have a special discount for a limited number of students: please
+      <a href="mailto:hello@ouisharefest.com">
+      get in touch
+      </a>
+      .
     </p>
   </div>
   <div class="registerdown span4">
