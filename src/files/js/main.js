@@ -10,8 +10,6 @@
 					linkTarget = $this.attr('href'),
 					offSetTop;
 
-				}
-
 				event.preventDefault();
 
 				// Get distance of top
