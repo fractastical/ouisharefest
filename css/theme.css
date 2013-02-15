@@ -276,8 +276,8 @@ display: block;
     line-height:0.4em;
 }
 .cabaret{
-    width:800px;
-    height:500px;
+    width:700px;
+    height:438px;
 }
 .cabaret img {
     width: 800px;
@@ -514,20 +514,15 @@ display: block;
     line-height:1.8em;
 }
 .register p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .registerright{
     height:375px;
-    margin-bottom:4em;
 }
 .registerright iframe{
     overflow:hidden;
 }
 
-.registerright.french{
-    margin-bottom:0;
-    font-size:1em;
-}
 /* =============================================================================
    CONTACT
    ========================================================================== */
