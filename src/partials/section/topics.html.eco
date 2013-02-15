@@ -29,6 +29,8 @@
         <p>
           leverages the power of the internet and peer-to-peer networks to reinvent how we share, rent, swap or trade goods and services.
         </p>
+       :wq
+       :wq
       </div>
     </div>
     <div class="item">
