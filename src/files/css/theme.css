@@ -526,6 +526,7 @@ display: block;
 
 .registerright.french{
     margin-bottom:0;
+    font-size:1em;
 }
 /* =============================================================================
    CONTACT
@@ -574,8 +575,8 @@ display: block;
       padding-top:3em;
   }
   .cabaret img{
-      height: 438px;
-      width: 700px;
+      height: 313px;
+      width: 500px;
   }
   .contribute{
       padding-top:2em;
@@ -616,10 +617,6 @@ display: block;
   }
   .partners{
       padding-top:4em;
-  }
-  .cabaret img{
-      height: 313px;
-      width: 500px;
   }
   .volunteer{
       margin-top: -2em;
