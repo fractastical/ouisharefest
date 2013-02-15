@@ -1,4 +1,5 @@
 /* =============================================================================
+ * c
    MAIN LAYOUT
    ========================================================================== */
 html {
@@ -519,8 +520,12 @@ display: block;
     height:375px;
     margin-bottom:4em;
 }
-.registerright{
+.registerright iframe{
     overflow:hidden;
+}
+
+.registerright.fr{
+    margin-bottom:0;
 }
 /* =============================================================================
    CONTACT
@@ -560,10 +565,13 @@ display: block;
       line-height: 1.4em;
   }
   .sponsors{
-      height: 280% !important;
+      height: 290% !important;
   }
   .partners{
       padding-top: 8em;
+  }
+  .location{
+      padding-top:3em;
   }
   .cabaret img{
       height: 438px;
